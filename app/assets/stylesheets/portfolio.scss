@@ -63,8 +63,8 @@
   width: 400px;
   height: 600px;
   position: absolute;
-  right: 18%;
-  top: 28%;
+  right: -29px;
+  top: 37px;
   background-color: #8645B9;
   height: auto;
   padding: 36px;
@@ -76,6 +76,11 @@
   font-size: 18px;
   color:white;
   font-weight:100;
+}
+
+.lumina-image-position {
+  width: 710px;
+  position: absolute;
 }
 
 .port-spin {
