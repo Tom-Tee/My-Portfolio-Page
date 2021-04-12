@@ -74,7 +74,8 @@
 }
 
 .lumina-image-position {
-  width: 710px;
+  width: auto;
+  height: 475px;
   position: absolute;
   left: 0;
   top: 0;
@@ -99,7 +100,7 @@
   width: 400px;
   height: 600px;
   position: absolute;
-  left: 140px;
+  // left: 140px;
   top: 37px;
   background-color: #67829B;
   height: 464px;
@@ -119,14 +120,21 @@
   // width: 710px;
   height: 475px;
   position: absolute;
-  right: 30px;
+  right: 0;
   top: 0;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+.spin-position {
+  position: relative;
+}
+
 .spin-text {
   position: absolute;
+  top: -78px;
+  right: 500px;
+  font-size: 54px !important;
 }
 
 .port-rad {
