@@ -99,7 +99,7 @@
   width: 400px;
   height: 600px;
   position: absolute;
-  right: -29px;
+  left: 140px;
   top: 37px;
   background-color: #67829B;
   height: 464px;
@@ -117,12 +117,16 @@
 
 .spin-image-position {
   // width: 710px;
-  height: 500px;
+  height: 475px;
   position: absolute;
-  left: 0;
+  right: 30px;
   top: 0;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.spin-text {
+  position: absolute;
 }
 
 .port-rad {
