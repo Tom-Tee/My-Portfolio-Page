@@ -148,6 +148,31 @@
   background-color: #A5C9FF;
 }
 
+.rad-image-position {
+  // width: 710px;
+  z-index: 1;
+  height: 475px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.rad-content {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  right: -29px;
+  top: 37px;
+  background-color: #305577;
+  height: 464px;
+  padding: 36px;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  // z-index: 100;
+}
+
 .port-article {
   height: 700px;
   width:auto;
