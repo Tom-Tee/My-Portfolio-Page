@@ -14,15 +14,40 @@
 }
 
 
-.lumina-image-position {
-  width: 710px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 8px;
-}
-
 .central-container {
   width: 1000px;
   position: absolute;
+  height: 600px;
+}
+
+.port-button {
+  font-family: Raleway;
+  font-weight: 300;
+  // background-color: #DAD1E9;
+  padding: 16px 24px;
+  border-radius: 8px;
+  min-width: 110px
+}
+
+.preview {
+  background-color: #DAD1E9;
+}
+
+.site {
+  background-color: #D8ABAB;
+  margin-left: 80px;
+}
+
+.button-selection-lumina {
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+  z-index: 4
+}
+
+.button-selection-spin {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  z-index: 4
 }
