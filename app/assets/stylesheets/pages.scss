@@ -13,6 +13,12 @@
   // position: absolute;
 }
 
+.inner-skill-container {
+  height: 500px;
+  width: 1200px;
+  position: relative;
+}
+
 
 .central-container {
   width: 1000px;
@@ -56,4 +62,12 @@
   height:120px;
   width: 350px;
   background-color: #505050;
+}
+
+.front-end-skills {
+  height: 200px;
+  width: 770px;
+  background-color: #3D3D3D;
+  position: relative;
+  right: -100px;
 }
