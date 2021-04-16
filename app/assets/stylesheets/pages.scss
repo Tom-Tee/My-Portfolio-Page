@@ -32,7 +32,14 @@
   // background-color: #DAD1E9;
   padding: 16px 24px;
   border-radius: 8px;
-  min-width: 110px
+  min-width: 110px;
+  transition: 0.5s;
+}
+
+.port-button:hover {
+  background-color:#c6eaff;
+  font-weight:300;
+  color:black;
 }
 
 .preview {
