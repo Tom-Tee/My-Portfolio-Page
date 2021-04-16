@@ -14,3 +14,11 @@
  *= require_self
  */
 @import 'portfolio';
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
