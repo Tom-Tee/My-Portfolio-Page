@@ -208,8 +208,11 @@
 }
 
 .skills-half-container {
-  width:175px;
+  width:140px;
   height:300px;
+  display:flex;
+  justify-content: space-around;
+  flex-direction:column;
 }
 
 .about {
