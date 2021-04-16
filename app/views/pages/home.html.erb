@@ -176,12 +176,19 @@
           </div>
           <div>
             <p class='skills-content-text m-4'>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Nam, eum, earum. Molestias modi culpa iure ab cumque quasi laboriosam velit. Sit tenetur iste aliquam quidem amet dolores nobis quo facere quae magnam, itaque aliquid quis?</p>
+            <p class='skills-content-text' style='position:absolute;left: 182px;bottom: 8px;'>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Nam, eum, earum. Molestias modi culpa iure ab cumque.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="d-flex justify-content-center">
-      <div class="backennd-skills inner-skill-container"></div>
+      <div class="backennd-skills inner-skill-container">
+        <div class="d-flex justify-content-center">
+          <%= image_tag "ruby", style: "height: 80px; margin-top:32px;" %>
+        </div>
+        <p class="skills-content-text m-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem optio facere consectetur ducimus ad culpa hic, nisi, vitae quidem expedita sit velit, nesciunt aliquam, cum molestiae consectetur ducimus ad !</p>
+      </div>
+
       <div>
         <%= image_tag "arr", style: "margin-top: 74px;;transform: rotate(180deg);" %>
       </div>
@@ -198,7 +205,13 @@
       <div>
         <%= image_tag "arr", style: "margin-top: 222px" %>
       </div>
-      <div class="tools-skills inner-skill-container"></div>
+      <div class="tools-skills inner-skill-container">
+        <div class="skills-half-container">
+          <%= image_tag "figma", style:'height:65px;' %>
+          <%= image_tag "slack", style:'height:65px;' %>
+          <%= image_tag "gitty", style:'height:65px;' %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
