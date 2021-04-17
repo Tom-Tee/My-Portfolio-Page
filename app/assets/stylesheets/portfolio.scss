@@ -4,6 +4,7 @@
   }
   .top-response {
     flex-direction: column;
+    text-align:center;
   }
   .contact {
     width: 0;
@@ -11,6 +12,32 @@
   .lumina-text {
     position: inherit!important;
     text-align: center;
+  }
+  .lumina-image-position {
+    position: inherit!important;
+    height:265px!important;
+    border-radius: 0px!important;
+    margin-bottom: 8px!important;
+  }
+  .lumina-paragraph {
+    font-size: 17px;
+  }
+  .lumina-content {
+    position: inherit!important;
+    border-radius: 0px!important;
+    margin-bottom: 8px!important;
+  }
+  .port-lumina {
+    height:1200px!important;
+  }
+  .central-container-lumina {
+    position: inherit!important;
+  }
+  .button-selection-lumina {
+    justify-content: center;
+    position:inherit!important;
+  }.icons-selector {
+    margin-left:58px;
   }
 }
 

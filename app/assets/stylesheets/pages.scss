@@ -26,6 +26,12 @@
   height: 600px;
 }
 
+.central-container-lumina {
+  width: 1000px;
+  position: absolute;
+  height: 600px;
+}
+
 .port-button {
   font-family: Raleway;
   font-weight: 300;
@@ -83,4 +89,9 @@
 
 .about-inner p {
   font-family: Raleway;
+}
+
+.inner-container-detail {
+  display:flex;
+  justify-content: center;
 }
