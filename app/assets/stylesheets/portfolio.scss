@@ -73,6 +73,11 @@
     position: inherit!important;
     text-align:center;
   }
+  .article-text {
+    font-size: 42px!important;
+    position: inherit!important;
+    text-align:center;
+  }
   .rad-image-position {
     position: inherit!important;
     height:265px!important;
@@ -83,6 +88,9 @@
     position: inherit!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
+  }
+.port-article {
+    height:1180px!important;
   }
 }
 
@@ -250,6 +258,13 @@
   font-size: 54px;
 }
 
+.article-text {
+  position: absolute;
+  top: -78px;
+  right: 500px;
+  font-size: 54px;
+}
+
 .port-rad {
   height: 700px;
   width:auto;
@@ -260,7 +275,7 @@
   // width: 710px;
   z-index: 1;
     height: 475px;
-    width: 693px;
+    // width: 693px;
   position: absolute;
   left: 0;
   top: 0;
