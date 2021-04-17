@@ -217,7 +217,7 @@
 
 .about {
   background-color: #705693;
-  height: 700px;
+  height: 720px;
   width:auto;
 }
 
@@ -256,20 +256,20 @@
 }
 
 .development {
-  height:180px;
+  height:200px;
   width:900px;
   background-color: #D8DDE9;
 }
 
 .home {
-  height:180px;
+  height:200px;
   width:900px;
   background-color: #CABEFA;
-  margin: 11px;
+  // margin: 11px;
 }
 
 .interests {
-  height:180px;
+  height:200px;
   width:900px;
   background-color: #C9D1FF;
 }
@@ -281,6 +281,34 @@
   position: relative;
   top: -100px;
   left: 48px;
+}
+
+.about-text {
+  font-family: 'Barrio', cursive;
+  color:#F0F7F4;
+  font-size: 40px;
+  text-border: 3px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: black;
+}
+
+.flag-container {
+  height: 155px;
+  width: 155px;
+  // margin-top: 50px;
+  border-radius:50%;
+  margin-right:124px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.interests-container {
+  height: 155px;
+  width: 155px;
+  // margin-top: 50px;
+  border-radius:50%;
+  margin-left:50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 * {
