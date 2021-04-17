@@ -1,3 +1,23 @@
+@media screen and (max-width: 600px) {
+  .begin h4 {
+    text-align: center;
+  }
+  .top-response {
+    flex-direction: column;
+  }
+  .contact {
+    width: 0;
+  }
+  .lumina-text {
+    position: inherit!important;
+  }
+}
+
+.top-nav:hover {
+  fill:red;
+}
+
+
 .begin {
   height: 650px;
   width:auto;
