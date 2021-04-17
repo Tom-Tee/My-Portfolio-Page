@@ -60,7 +60,7 @@
 }
 
 .lumina-content {
-  width: 400px;
+  width: 375px;
   height: 600px;
   position: absolute;
   right: -29px;
@@ -99,7 +99,7 @@
 }
 
 .spin-content {
-  width: 400px;
+  width: 375px;
   height: 600px;
   position: absolute;
   padding-right: 40px;
@@ -118,6 +118,14 @@
   color:white;
   font-weight:100;
   padding-right:60px;
+}
+
+.other-paragraph {
+  font-family: Raleway;
+  font-size: 18px;
+  color:white;
+  font-weight:100;
+  padding-left:60px;
 }
 
 .spin-image-position {
@@ -151,7 +159,8 @@
 .rad-image-position {
   // width: 710px;
   z-index: 1;
-  height: 475px;
+    height: 475px;
+    width: 693px;
   position: absolute;
   left: 0;
   top: 0;
@@ -160,17 +169,25 @@
 }
 
 .rad-content {
-  width: 400px;
+  width: 375px;
   height: 600px;
   position: absolute;
   right: -29px;
   top: 37px;
-  background-color: #305577;
+  // background-color: #305577;
   height: 464px;
   padding: 36px;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   // z-index: 100;
+}
+
+.rad-color {
+  background-color: #305577;
+}
+
+.port-color {
+  background-color: #233342;
 }
 
 .port-article {
@@ -182,7 +199,7 @@
 .port-portfolio {
   height: 700px;
   width:auto;
-  background-color: #f1eeff;
+  background-color: #fbfbfb;
 }
 
 .skills {
