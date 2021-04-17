@@ -256,21 +256,31 @@
 }
 
 .development {
-  height:170px;
+  height:180px;
   width:900px;
   background-color: #D8DDE9;
 }
 
 .home {
-  height:170px;
+  height:180px;
   width:900px;
   background-color: #CABEFA;
+  margin: 11px;
 }
 
 .interests {
-  height:170px;
+  height:180px;
   width:900px;
   background-color: #C9D1FF;
+}
+
+.fun-fact {
+  width: 320px;
+  height:250px;
+  background-color: #E3BABA;
+  position: relative;
+  top: -70px;
+  left: 48px;
 }
 
 * {
