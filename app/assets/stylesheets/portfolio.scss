@@ -36,7 +36,8 @@
   .button-selection-lumina {
     justify-content: center;
     position:inherit!important;
-  }.icons-selector {
+  }
+  .icons-selector {
     margin-left:58px;
   }
   .port-spin {
@@ -48,6 +49,21 @@
   .spin-text {
     position:inherit!important;
     text-align:center;
+  }
+  .spin-content {
+    position: inherit!important;
+    border-radius: 0px!important;
+    margin-bottom: 20px!important;
+  }
+  .spin-image-position {
+    position: inherit!important;
+    height:265px!important;
+    border-radius: 0px!important;
+    margin-bottom: 20px!important;
+  }
+ .button-selection-spin {
+    justify-content: center;
+    position:inherit!important;
   }
 }
 
