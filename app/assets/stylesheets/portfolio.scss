@@ -93,6 +93,7 @@
   .port-image-position {
     position: inherit!important;
     height:265px!important;
+    width:388px!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
     margin-left: 60px;
@@ -326,6 +327,10 @@
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+.rad-color {
+  background-color: #305577;
+}
+
 .port-content {
   width: 375px;
   height: 600px;
@@ -338,10 +343,6 @@
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   // z-index: 100;
-}
-
-.rad-color {
-  background-color: #305577;
 }
 
 .port-color {
@@ -359,6 +360,19 @@
   width:auto;
   background-color: #fbfbfb;
 }
+
+.port-image-position {
+  z-index: 1;
+  height: 475px;
+  width:693px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  // box-shadow: rgba(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+}
+
 
 .skills {
   background-color: #856A96;
