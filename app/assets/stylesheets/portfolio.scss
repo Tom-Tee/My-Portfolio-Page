@@ -111,7 +111,7 @@
     height:1180px!important;
   }
   .skills {
-    height: 1180px!important;
+    height: 2500px!important;
   }
   .change-to-column {
     flex-direction: column!important;
@@ -121,10 +121,14 @@
   }
   .front-end-skills {
     height: 500px!important;
-    width: 330px!important;
+    width: 350px!important;
   }
   .skills-content-text {
     position: inherit!important;
+  }
+  .backennd-skills {
+    margin-left: 0px!important;
+    margin-top: 60px;
   }
 }
 
