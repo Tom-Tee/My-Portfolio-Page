@@ -110,6 +110,22 @@
 .port-portfolio {
     height:1180px!important;
   }
+  .skills {
+    height: 1180px!important;
+  }
+  .change-to-column {
+    flex-direction: column!important;
+  }
+  .d-flex-toggle {
+    display:contents!important;
+  }
+  .front-end-skills {
+    height: 500px!important;
+    width: 330px!important;
+  }
+  .skills-content-text {
+    position: inherit!important;
+  }
 }
 
 .top-nav:hover {
