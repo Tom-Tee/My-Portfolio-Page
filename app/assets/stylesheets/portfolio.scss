@@ -130,6 +130,22 @@
     margin-left: 0px!important;
     margin-top: 60px;
   }
+  .skills-text {
+    margin-left:0px!important;
+  }
+  .arrow-down {
+    transform: rotate(90deg);
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+  }
+  .arrow-down-again {
+    transform: rotate(90deg);
+    position: relative;
+    left: 110px;
+    bottom: 40px;
+    margin-top: 62px!important;
+  }
 }
 
 .top-nav:hover {
