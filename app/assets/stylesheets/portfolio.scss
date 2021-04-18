@@ -111,7 +111,7 @@
     height:1180px!important;
   }
   .skills {
-    height: 2500px!important;
+    height: 2228px!important;
   }
   .change-to-column {
     flex-direction: column!important;
@@ -140,11 +140,20 @@
     bottom: 40px;
   }
   .arrow-down-again {
-    transform: rotate(90deg);
+    transform: rotate(270deg)!important;
     position: relative;
     left: 110px;
     bottom: 40px;
     margin-top: 62px!important;
+  }
+  .backend {
+    margin-top:0px!important;
+  }
+  .last-arrow {
+    margin-top: 82px!important;
+  }
+  .tools-skills {
+    top:0px!important;
   }
 }
 
