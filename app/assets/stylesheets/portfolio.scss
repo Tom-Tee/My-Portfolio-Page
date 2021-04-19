@@ -126,6 +126,9 @@
   .skills-content-text {
     position: inherit!important;
   }
+  .marg-change {
+    margin:16px;
+  }
   .backennd-skills {
     margin-left: 0px!important;
     margin-top: 60px;
@@ -170,7 +173,7 @@
     width: inherit;
   }
   .about {
-    height: 2500px!important;
+    height: 1920px!important;
   }
   .about-dflex-change {
     display:inherit!important;
@@ -220,6 +223,31 @@
   .home p {
     text-align:center;
     margin-top:24px;
+  }
+  .about-header {
+    display:inline;
+  }
+  .about-text {
+    padding-top: 0px;
+  }
+  .interests {
+    height:450px!important;
+    width:400px!important;
+    display:inherit!important;
+    margin-bottom: 16px;
+  }
+  .display-selector {
+    display:inherit!important;
+  }
+  .interests p {
+    text-align:center;
+    margin-top:24px;
+  }
+  .interests-container {
+    margin-top: 16px;
+  }
+  .fun-fact {
+    position: inherit!important;
   }
 }
 
@@ -630,6 +658,10 @@
 .align-items-selector {
   display:flex;
   align-items:center;
+}
+
+.display-selector {
+  display:flex;
 }
 
 * {
