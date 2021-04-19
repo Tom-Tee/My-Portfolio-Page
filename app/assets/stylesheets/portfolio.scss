@@ -104,12 +104,12 @@
     margin-bottom: 20px!important;
     margin:0 auto;
   }
-.port-article {
-    height:1180px!important;
-  }
-.port-portfolio {
-    height:1180px!important;
-  }
+  .port-article {
+      height:1180px!important;
+    }
+  .port-portfolio {
+      height:1180px!important;
+    }
   .skills {
     height: 2228px!important;
   }
@@ -158,6 +158,18 @@
   .about-flex {
     justify-content: center!important;
   }
+  .icons-selector {
+    width:0px!important;
+    // justify-content:center!important;
+  }
+  .content-between-toggle {
+    display:flex;
+    justify-content:center!important;
+  }
+  .contact {
+    width: inherit;
+  }
+
 }
 
 .top-nav:hover {
@@ -547,6 +559,11 @@
   border-radius:50%;
   margin-left:50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content-between-toggle {
+  display:flex;
+  justify-content:space-between;
 }
 
 * {
