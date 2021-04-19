@@ -187,8 +187,22 @@
     width:-webkit-fill-available;
   }
   .development {
-    height:400px!important;
+    height:450px!important;
     width:400px!important;
+    display:inherit!important;
+    margin-bottom: 16px;
+  }
+  .align-items-selector {
+    justify-content:center!important;
+  }
+  .align-items-selector img {
+    margin-left: 0px!important;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .development p {
+    text-align: center;
   }
 }
 
@@ -594,6 +608,11 @@
 .content-selector {
   display:flex;
   justify-content:center;
+}
+
+.align-items-selector {
+  display:flex;
+  align-items:center;
 }
 
 * {
