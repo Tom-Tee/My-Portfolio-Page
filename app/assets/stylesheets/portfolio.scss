@@ -200,9 +200,26 @@
   }
   .about-text {
     text-align: center;
+    padding-top: 16px;
   }
   .development p {
     text-align: center;
+  }
+  .home {
+    height:450px!important;
+    width:400px!important;
+    display:inherit!important;
+    margin-bottom: 16px;
+  }
+  .content-selector {
+    display:inherit!important;
+  }
+  .flag-container {
+    margin:auto;
+  }
+  .home p {
+    text-align:center;
+    margin-top:24px;
   }
 }
 
