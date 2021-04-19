@@ -169,7 +169,27 @@
   .contact {
     width: inherit;
   }
-
+  .about {
+    height: 2500px!important;
+  }
+  .about-dflex-change {
+    display:inherit!important;
+    // flex-direction: column;
+    // align-items: inherit!important;
+  }
+  .content-selector {
+    display:inherit;
+  }
+  .about-header {
+    position:inherit!important;
+  }
+  .width-fix {
+    width:-webkit-fill-available;
+  }
+  .development {
+    height:400px!important;
+    width:400px!important;
+  }
 }
 
 .top-nav:hover {
@@ -564,6 +584,16 @@
 .content-between-toggle {
   display:flex;
   justify-content:space-between;
+}
+
+.about-dflex-change {
+  display:flex;
+  justify-content:flex-end;
+}
+
+.content-selector {
+  display:flex;
+  justify-content:center;
 }
 
 * {
