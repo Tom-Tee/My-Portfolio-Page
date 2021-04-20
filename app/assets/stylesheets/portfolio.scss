@@ -29,9 +29,11 @@
     position: inherit!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
+    width:100%!important;
+    height:260px;
   }
   .port-lumina {
-    height:1200px!important;
+    height:1320px!important;
   }
   .content-between-toggle {
     display:flex;
@@ -43,6 +45,7 @@
   }
   .central-container-lumina {
     position: inherit;
+    width:inherit!important
   }
   .button-selection-lumina {
     position:inherit!important;
@@ -50,11 +53,8 @@
     width: 750px;
   }
   .lumina-image-position {
-    height:540px!important;
-  }
-  .lumina-content {
-    width: 765px!important;
-    height: 215px!important;
+    width: 100%!important;
+    height: 100%!important;
   }
  .port-spin {
     height:1180px!important;
