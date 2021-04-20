@@ -120,6 +120,8 @@
   }
   .port-content {
     position: inherit!important;
+    width:100%!important;
+    height:265px!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
     margin:0 auto;
@@ -128,10 +130,14 @@
       height:1320px!important;
     }
   .port-portfolio {
-      height:1180px!important;
+      height:1320px!important;
     }
   .skills {
     height: 2228px!important;
+  }
+  .custom-container-skills {
+    display: flex;
+    justify-content: center;
   }
   .change-to-column {
     flex-direction: column!important;
@@ -140,8 +146,11 @@
     display:contents!important;
   }
   .front-end-skills {
-    height: 500px!important;
-    width: 350px!important;
+    height: 400px;
+    width: 500px;
+  }
+  .front-end-center {
+    justify-content:center;
   }
   .skills-content-text {
     position: inherit!important;
@@ -152,20 +161,23 @@
   .backennd-skills {
     margin-left: 0px!important;
     margin-top: 60px;
+    width:500px!important;
+    height:300px!important;
   }
   .skills-text {
     margin-left:0px!important;
+    width:500px
   }
   .arrow-down {
     transform: rotate(90deg);
     position: relative;
-    left: 110px;
+    left: 195px;
     bottom: 40px;
   }
   .arrow-down-again {
     transform: rotate(270deg)!important;
     position: relative;
-    left: 110px;
+    left: 195px;
     bottom: 40px;
     margin-top: 62px!important;
   }
