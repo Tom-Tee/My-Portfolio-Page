@@ -166,7 +166,7 @@
   }
   .skills-text {
     margin-left:0px!important;
-    width:500px
+    width:500px;
   }
   .arrow-down {
     transform: rotate(90deg);
@@ -286,8 +286,11 @@
   }
   .fun-fact {
     position: inherit!important;
-    width: 700px!important;
+    width: 700px;
     height: 172px!important;
+  }
+  .select-header-flex {
+    display:inherit!important;
   }
 }
 
@@ -324,9 +327,10 @@
     position: inherit!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
+    height: 520px!important;
   }
   .port-lumina {
-    height:1180px!important;
+    height:1280px!important;
   }
   .central-container-lumina {
     position: inherit!important;
@@ -339,7 +343,7 @@
     margin-left:58px;
   }
   .port-spin {
-    height:1180px!important;
+    height:1280px!important;
   }
   .spin-position {
     position:inherit!important;
@@ -352,6 +356,7 @@
     position: inherit!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
+    height:550px!important;
   }
   .spin-image-position {
     position: inherit!important;
@@ -376,6 +381,9 @@
     position: inherit!important;
     text-align:center;
   }
+  .select-header-flex {
+    display:inherit!important;
+  }
   .rad-image-position {
     position: inherit!important;
     height:265px!important;
@@ -391,10 +399,10 @@
   .port-image-position {
     position: inherit!important;
     height:265px!important;
-    width:388px!important;
+    // width:388px!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
-    margin-left: 60px;
+    // margin-left: 60px;
   }
   .port-content {
     position: inherit!important;
@@ -430,9 +438,12 @@
   .backennd-skills {
     margin-left: 0px!important;
     margin-top: 60px;
+    width: 350px!important;
+    height: 350px!important;
   }
   .skills-text {
     margin-left:0px!important;
+    width:350px;
   }
   .arrow-down {
     transform: rotate(90deg);
@@ -455,6 +466,7 @@
   }
   .tools-skills {
     top:0px!important;
+    width: 350px!important;
   }
   .about-flex {
     justify-content: center!important;
@@ -960,6 +972,11 @@
 
 .display-selector {
   display:flex;
+}
+
+.select-header-flex {
+  display:flex;
+  justify-content:center;
 }
 
 * {
