@@ -1,3 +1,18 @@
+@media only screen and (max-width: 2400px) {
+    .custom-container {
+    margin-left: 250px!important;
+    margin-right: 250px!important;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+    .custom-container {
+    margin-left: 60px!important;
+    margin-right: 60px!important;
+  }
+}
+
+
 @media only screen and (max-width: 900px) {
   .the-start {
   max-width:900px!important;
@@ -429,7 +444,7 @@
   }
   .front-end-skills {
     height: 500px!important;
-    width: 350px!important;
+    width: 100%!important;
   }
   .skills-content-text {
     position: inherit!important;
@@ -440,12 +455,12 @@
   .backennd-skills {
     margin-left: 0px!important;
     margin-top: 60px;
-    width: 350px!important;
+    width: 100%!important;
     height: 350px!important;
   }
   .skills-text {
     margin-left:0px!important;
-    width:350px;
+    width:100%;
   }
   .arrow-down {
     transform: rotate(90deg);
@@ -468,7 +483,7 @@
   }
   .tools-skills {
     top:0px!important;
-    width: 350px!important;
+    width: 100%!important;
   }
   .about-flex {
     justify-content: center!important;
