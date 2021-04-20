@@ -28,7 +28,7 @@
     margin-bottom: 20px!important;
   }
   .port-lumina {
-    height:1180px!important;
+    height:1200px!important;
   }
   .content-between-toggle {
     display:flex;
@@ -43,6 +43,13 @@
   }
   .button-selection-lumina {
     position:inherit!important;
+  }
+  .lumina-image-position {
+    height:540px!important;
+  }
+  .lumina-content {
+    width: 765px!important;
+    height: 215px!important;
   }
 }
 
@@ -83,7 +90,7 @@
     position: inherit!important;
   }
   .button-selection-lumina {
-    justify-content: center;
+    justify-content: inherit!important;
     position:inherit!important;
   }
   .icons-selector {
