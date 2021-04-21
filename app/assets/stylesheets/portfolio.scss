@@ -13,7 +13,25 @@
 }
 
 
+@media only screen and (max-width: 1330px) {
+  .skills-content-text {
+    font-size: 14px!important;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .skills-content-text {
+    font-size: 12px!important;
+  }
+}
+
+
 @media only screen and (max-width: 900px) {
+
+  .custom-container {
+    margin-left: 45px!important;
+    margin-right: 45px!important;
+  }
   .the-start {
   max-width:900px!important;
   }
@@ -315,6 +333,10 @@
 
 
 @media screen and (max-width: 600px) {
+  .custom-container {
+    margin-left: 30px!important;
+    margin-right: 30px!important;
+  }
   .begin h4 {
     text-align: center;
   }
@@ -518,8 +540,8 @@
     width:-webkit-fill-available;
   }
   .development {
-    height:450px!important;
-    width:400px!important;
+    height:100%!important;
+    width:100%!important;
     display:inherit!important;
     margin-bottom: 16px;
   }
@@ -537,8 +559,8 @@
     text-align: center;
   }
   .home {
-    height:450px!important;
-    width:400px!important;
+    height:100%!important;
+    width:100%!important;
     display:inherit!important;
     margin-bottom: 16px;
   }
@@ -559,8 +581,8 @@
     padding-top: 0px;
   }
   .interests {
-    height:450px!important;
-    width:400px!important;
+    height:100%!important;
+    width:100%!important;
     display:inherit!important;
     margin-bottom: 16px;
   }
@@ -576,7 +598,7 @@
   }
   .fun-fact {
     position: inherit!important;
-    width:400px!important;
+    width:100%!important;
   }
 }
 
