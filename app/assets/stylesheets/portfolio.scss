@@ -65,7 +65,7 @@
   .button-selection-lumina {
     position:inherit!important;
     justify-content: center;
-    width: 750px;
+    width:inherit!important;
   }
   .lumina-image-position {
     width: 100%!important;
@@ -301,7 +301,7 @@
   }
   .fun-fact {
     position: inherit!important;
-    width: 700px;
+    width: 700px!important;
     height: 172px!important;
   }
   .select-header-flex {
@@ -351,8 +351,9 @@
     position: inherit!important;
   }
   .button-selection-lumina {
-    justify-content: inherit!important;
+    justify-content: center!important;
     position:inherit!important;
+    width:inherit!important;
   }
   .icons-selector {
     margin-left:58px;
@@ -575,6 +576,7 @@
   }
   .fun-fact {
     position: inherit!important;
+    width:400px!important;
   }
 }
 
@@ -994,6 +996,11 @@
 .select-header-flex {
   display:flex;
   justify-content:center;
+}
+
+.change-position {
+  position: relative;
+  right: -32px;
 }
 
 * {
