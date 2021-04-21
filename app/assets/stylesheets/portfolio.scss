@@ -17,11 +17,35 @@
   .skills-content-text {
     font-size: 14px!important;
   }
+  .skills-content-text-sml {
+    font-family: raleway;
+    font-size: 8px;
+    color: #FEFEFE;
+    font-weight: 300;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
   .skills-content-text {
     font-size: 12px!important;
+  }
+  .lumina-text {
+    position:initial!important;
+  }
+  .spin-text {
+    position:initial!important;
+  }
+  .port-lumina {
+    height:800px!important;
+  }
+  .port-spin {
+    height:800px!important;
+  }
+  .port-rad {
+    height:800px!important;
+  }
+  .rad-text {
+    position:initial!important;
   }
 }
 
