@@ -162,7 +162,7 @@
   }
   .front-end-skills {
     height: 400px;
-    width: 500px;
+    width: 100%;
   }
   .front-end-center {
     justify-content:center;
@@ -176,23 +176,23 @@
   .backennd-skills {
     margin-left: 0px!important;
     margin-top: 60px;
-    width:500px!important;
+    width:100%!important;
     height:300px!important;
   }
   .skills-text {
     margin-left:0px!important;
-    width:500px;
+    width:100%;
   }
   .arrow-down {
     transform: rotate(90deg);
     position: relative;
-    left: 195px;
+    left: 41%;
     bottom: 40px;
   }
   .arrow-down-again {
     transform: rotate(270deg)!important;
     position: relative;
-    left: 195px;
+    left: 41%;
     bottom: 40px;
     margin-top: 62px!important;
   }
@@ -204,7 +204,7 @@
   }
   .tools-skills {
     top:0px!important;
-    width:500px!important;
+    width:100%!important;
   }
   .about-flex {
     justify-content: center!important;
