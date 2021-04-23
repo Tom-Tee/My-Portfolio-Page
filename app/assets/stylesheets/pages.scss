@@ -60,7 +60,20 @@
   box-shadow:2px 2px #ff68b4,
               4px 4px black,
               6px 6px #bc8ce2;
-  background-color: bisque;
+  background-color: #201840;
+}
+
+h6 {
+  border: 3px solid black;
+  padding:8px;
+  box-shadow:2px 2px #ff68b4,
+              4px 4px black,
+              6px 6px #bc8ce2;
+}
+
+.the-start h4 {
+  text-decoration: underline;
+  text-decoration-color:#ff68b4;
 }
 
 .spin-button {
