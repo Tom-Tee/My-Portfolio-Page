@@ -106,12 +106,21 @@
   // justify-content:center;
 }
 
-.modal-header {
-  background-color: #b3b3b3;
+.lumina-modal-header {
+  background-color: #DFF4FB;
 }
 
-.modal-body {
+.lumina-modal-body {
   height: 2615px;
-  background-color: #b3b3b3;
+  background-color: #DFF4FB;
+}
+
+.rad-modal-header {
+  background-color: #A5C9FF;
+}
+
+.rad-modal-body {
+  height: 1775px;
+  background-color: #A5C9FF;
 }
 

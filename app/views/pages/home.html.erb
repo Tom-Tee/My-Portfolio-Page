@@ -64,11 +64,11 @@
           <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl">
               <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header lumina-modal-header">
                   <h5 class="modal-title text-center" id="staticBackdropLabel">Lumina</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body lumina-modal-body">
                   <%= image_tag "lumina-site", style:"width: 1106px;" %>
                   <object type="text/html" data="https://www.love-lumina.me/"></object>
                 </div>
@@ -130,7 +130,11 @@
             </div>
           </div>
           <div class="d-flex button-selection-lumina">
-            <div class="port-button preview text-center">PREVIEW</div>
+            <div>
+              <button class="port-button preview text-center" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                PREVIEW
+              </button>
+            </div>
             <div class="port-button site text-center"><a href="https://rad-man.herokuapp.com" target="_blank">SITE</a></div>
           </div>
         </div>
@@ -138,6 +142,21 @@
     </div>
   </div>
 
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content modal-rad">
+                <div class="modal-header rad-modal-header">
+                  <h5 class="modal-title text-center" id="staticBackdropLabel">That's Rad Man</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body rad-modal-body">
+                  <%= image_tag "rad-site", style:"width: 1106px;" %>
+                  <object type="text/html" data="https://www.love-lumina.me/"></object>
+                </div>
+              </div>
+            </div>
+          </div>
 
   <div class="port-article">
     <div class="custom-container">
