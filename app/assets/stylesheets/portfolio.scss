@@ -25,6 +25,15 @@
   }
 }
 
+@media only screen and (max-width: 1350px) {
+  .skills-content-text-sml {
+    font-family: raleway;
+    font-size: 12px!important;
+    color:#FEFEFE;
+    font-weight:300;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   .skills-content-text {
     font-size: 12px!important;
@@ -53,6 +62,73 @@
   .rad-text {
     position:initial!important;
   }
+  .skills {
+    height: 2000px!important;
+  }
+  .custom-container-skills {
+    display: flex;
+    justify-content: center;
+  }
+  .change-to-column {
+    flex-direction: column!important;
+  }
+  .d-flex-toggle {
+    display:contents!important;
+  }
+  .front-end-skills {
+    height: 400px;
+    width: 100%;
+  }
+  .front-end-center {
+    justify-content:center;
+  }
+  .skills-content-text {
+    position: inherit!important;
+    font-size:22px!important;
+    text-align:center;
+  }
+  .skills-half-container {
+    width:250px!important;
+  }
+  .skills-content-text-sml {
+    font-size:22px!important;
+  }
+  .marg-change {
+    margin:16px;
+  }
+  .backennd-skills {
+    margin-left: 0px!important;
+    margin-top: 60px;
+    width:100%!important;
+    height:300px!important;
+  }
+  .skills-text {
+    margin-left:0px!important;
+    width:100%;
+  }
+  .arrow-down {
+    transform: rotate(90deg);
+    position: relative;
+    left: 43%;
+    bottom: 40px;
+  }
+  .arrow-down-again {
+    transform: rotate(270deg)!important;
+    position: relative;
+    left: 43%;
+    bottom: 40px;
+    margin-top: 62px!important;
+  }
+  .backend {
+    margin-top:0px!important;
+  }
+  .last-arrow {
+    margin-top: 82px!important;
+  }
+  .tools-skills {
+    top:0px!important;
+    width:auto!important;
+    }
 }
 
 
@@ -217,10 +293,10 @@
   }
   .skills-content-text {
     position: inherit!important;
-    font-size:16px!important;
+    font-size:20px!important;
   }
   .skills-content-text-sml {
-    font-size:16px!important;
+    font-size:20px!important;
   }
   .marg-change {
     margin:16px;
@@ -401,7 +477,7 @@
     height: auto!important;
   }
   .port-lumina {
-    height:1280px!important;
+    height: 1172px !important;
   }
   .central-container-lumina {
     position: inherit!important;
@@ -415,7 +491,7 @@
     margin-left:58px;
   }
   .port-spin {
-    height:1280px!important;
+    height: 1120px !important;
   }
   .spin-position {
     position:inherit!important;
@@ -441,7 +517,7 @@
     position:inherit!important;
   }
  .port-rad {
-    height:1280px!important;
+    height: 1078px !important;
   }
   .rad-text {
     font-size: 42px!important;
@@ -485,10 +561,10 @@
     height: auto!important;
   }
   .port-article {
-      height:1280px!important;
+    height: 1128px !important;
     }
   .port-portfolio {
-      height:1370px!important;
+    height: 1068px !important;
     }
   .skills {
     height: 2228px!important;
@@ -500,7 +576,7 @@
     display:contents!important;
   }
   .front-end-skills {
-    height: 500px!important;
+    height: auto!important;
     width: 100%!important;
   }
   .skills-content-text {
@@ -522,13 +598,13 @@
   .arrow-down {
     transform: rotate(90deg);
     position: relative;
-    left: 110px;
+    left: 144px;
     bottom: 40px;
   }
   .arrow-down-again {
     transform: rotate(270deg)!important;
     position: relative;
-    left: 110px;
+    left: 144px;
     bottom: 40px;
     margin-top: 62px!important;
   }
@@ -876,7 +952,7 @@ font-family: 'Handlee', cursive;
   right: -29px;
   top: 37px;
   // background-color: #305577;
-  height: 464px;
+  height: auto;
   padding: 36px;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -937,9 +1013,10 @@ font-family: 'Handlee', cursive;
 
 .skills-content-text-sml {
   font-family: raleway;
-  font-size: 16px;
+  font-size: 14px;
   color:#FEFEFE;
   font-weight:300;
+  max-height:180px;
 }
 
 .skills-half-container {
@@ -954,6 +1031,13 @@ font-family: 'Handlee', cursive;
   background-color: #705693;
   height: 720px;
   width:auto;
+}
+
+.about p {
+    font-family: "Raleway";
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
 }
 
 .backennd-skills {
@@ -1019,12 +1103,12 @@ font-family: 'Handlee', cursive;
 }
 
 .about-text {
-font-family: 'Handlee', cursive;
+font-family: 'Raleway', cursive;
   color:#F0F7F4;
   font-size: 40px;
   text-border: 3px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-width: 1.0px;
   -webkit-text-stroke-color: black;
 }
 
