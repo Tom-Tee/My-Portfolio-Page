@@ -93,10 +93,10 @@
     border-radius: 0px!important;
     margin-bottom: 20px!important;
     width:100%!important;
-    height:260px!important;
+    height: auto!important;
   }
   .port-lumina {
-    height:1320px!important;
+    height:1400px!important;
   }
   .content-between-toggle {
     display:flex;
@@ -120,7 +120,7 @@
     height: 100%!important;
   }
  .port-spin {
-    height:1320px!important;
+    height:1400px!important;
   }
   .spin-text {
     text-align: center;
@@ -131,7 +131,7 @@
     border-radius: 0px!important;
     margin-bottom: 20px!important;
     width:100%!important;
-    height:230px!important
+    height: auto!important;
   }
   .spin-image-position {
     position: inherit!important;
@@ -146,7 +146,7 @@
     position:inherit!important;
   }
  .port-rad {
-    height:1320px!important;
+    height:1400px!important;
   }
   .rad-text {
     font-size: 42px!important;
@@ -169,7 +169,7 @@
   .rad-content {
     position: inherit!important;
     width: 100%!important;
-    height: 265px!important;
+    height: auto!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
   }
@@ -184,16 +184,16 @@
   .port-content {
     position: inherit!important;
     width:100%!important;
-    height:265px!important;
+    height: auto!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
     margin:0 auto;
   }
   .port-article {
-      height:1320px!important;
+    height:1400px!important;
     }
   .port-portfolio {
-      height:1320px!important;
+    height:1400px!important;
     }
   .skills {
     height: 2228px!important;
@@ -398,7 +398,7 @@
     position: inherit!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
-    height: 520px!important;
+    height: auto!important;
   }
   .port-lumina {
     height:1280px!important;
@@ -428,7 +428,7 @@
     position: inherit!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
-    height:550px!important;
+    height: auto!important;
   }
   .spin-image-position {
     position: inherit!important;
@@ -467,7 +467,7 @@
     position: inherit!important;
     border-radius: 0px!important;
     margin-bottom: 20px!important;
-    height:550px!important;
+    height: auto!important;
   }
   .port-image-position {
     position: inherit!important;
@@ -482,7 +482,7 @@
     border-radius: 0px!important;
     margin-bottom: 20px!important;
     margin:0 auto;
-    height:550px!important;
+    height: auto!important;
   }
   .port-article {
       height:1280px!important;
@@ -648,7 +648,7 @@
 }
 
 .header-text-light {
-  font-family: 'Roboto Slab', serif;
+font-family: 'Handlee', cursive;
   font-weight: 500;
   color:#F0F7F4;
   font-size: 64px;
@@ -659,7 +659,7 @@
 }
 
 .begin h1 {
-  font-family: 'Roboto Slab', serif;
+font-family: 'Handlee', cursive;
   color:#F0F7F4;
   font-size: 64px;
   text-border: 3px solid #000000;
@@ -669,7 +669,7 @@
 }
 
 .header-text {
-  font-family: 'Roboto Slab', serif;
+font-family: 'Handlee', cursive;
   color:#F0F7F4;
   font-size: 64px;
   text-border: 3px solid #000000;
@@ -743,7 +743,8 @@
   font-size: 18px;
   color:white;
   font-weight:100;
-  padding-left: 40px;
+  margin:0;
+  // padding-left: 40px;
 }
 
 .port-spin {
@@ -771,7 +772,8 @@
   font-size: 18px;
   color:white;
   font-weight:100;
-  padding-right:60px;
+  margin:0;
+  // padding-right:60px;
 }
 
 .other-paragraph {
@@ -779,7 +781,8 @@
   font-size: 18px;
   color:white;
   font-weight:100;
-  padding-left:60px;
+  margin:0;
+  // padding-left:60px;
 }
 
 .spin-image-position {
@@ -787,7 +790,7 @@
   z-index: 1;
   height: 475px;
   position: absolute;
-  right: 0;
+  right: -40px;
   top: 0;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -1016,7 +1019,7 @@
 }
 
 .about-text {
-  font-family: 'Barrio', cursive;
+font-family: 'Handlee', cursive;
   color:#F0F7F4;
   font-size: 40px;
   text-border: 3px solid #000000;
