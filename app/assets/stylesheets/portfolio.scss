@@ -731,8 +731,25 @@ box-shadow:2px 2px #ff1f8f,
   background-color: #705693;
 }
 
+
+// .test{
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   font-size:120px;
+//   letter-spacing:0.1em;
+//   -webkit-text-fill-color: transparent;
+//   -webkit-text-stroke-width: 3px;
+//   -webkit-text-stroke-color: white;
+//   text-shadow:
+//             // 8px 8px #ff1f8f,
+//             20px 20px #000000;
+// }
+
+
 .port-lumina .header-text-light {
-  font-family: 'Barrio', cursive;
+  font-family: 'Raleway', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
@@ -747,8 +764,6 @@ box-shadow:2px 2px #ff1f8f,
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
-
-
 
 .port-spin .header-text-light {
   font-family: 'Barrio', cursive;
@@ -765,21 +780,6 @@ box-shadow:2px 2px #ff1f8f,
   // text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-}
-
-.test{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size:120px;
-  letter-spacing:0.1em;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: white;
-  text-shadow:
-            // 8px 8px #ff1f8f,
-            20px 20px #000000;
 }
 
 .begin h4 {
