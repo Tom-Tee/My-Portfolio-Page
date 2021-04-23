@@ -61,14 +61,14 @@
   position: absolute;
   bottom: 100px;
   left: 200px;
-  z-index: 4
+  z-index: 3;
 }
 
 .button-selection-spin {
   position: absolute;
   bottom: 100px;
   right: 100px;
-  z-index: 4;
+  z-index: 3;
 }
 
 .front-end {
@@ -105,3 +105,13 @@
   display:flex;
   // justify-content:center;
 }
+
+.modal-header {
+  background-color: #b3b3b3;
+}
+
+.modal-body {
+  height: 2615px;
+  background-color: #b3b3b3;
+}
+
