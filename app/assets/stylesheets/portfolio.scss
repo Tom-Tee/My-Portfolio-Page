@@ -739,9 +739,9 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 64px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #ff1f8f,
+            2px 2px #ff68b4,
             4px 4px black,
-            6px 6px #cc00ff;
+            6px 6px #bc8ce2;
   text-border: 3px solid #000000;
   // text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   -webkit-text-stroke-width: 1px;
@@ -758,9 +758,9 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 64px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #ff1f8f,
+            2px 2px #0089ff,
             4px 4px black,
-            6px 6px black;
+            6px 6px #adadff;
   text-border: 3px solid #000000;
   // text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   -webkit-text-stroke-width: 1px;
@@ -793,10 +793,10 @@ font-family: 'Barrio', cursive;
   text-border: 3px solid #000000;
   letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2.0px;
   -webkit-text-stroke-color: white;
   text-shadow:
-            2px 2px #ff1f8f,
+            2px 2px #ff68b4,
             6px 6px black;
   // -webkit-text-stroke-width: 2px;
   // -webkit-text-stroke-color: white;
@@ -836,7 +836,7 @@ font-family: 'Barrio', cursive;
 .port-lumina {
   height: 700px;
   width:auto;
-  background-color: #DFF4FB;
+  background-color: #f0efff;
   position: relative;
 }
 
@@ -851,6 +851,7 @@ font-family: 'Barrio', cursive;
   width: 375px;
   // height: 600px;
   position: absolute;
+  border: 3px solid black;
   right: -29px;
   top: 37px;
   background-color: #8645B9;
@@ -859,10 +860,14 @@ font-family: 'Barrio', cursive;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   // z-index: 100;
-  box-shadow:2px 2px #ff1f8f,
+  box-shadow:2px 2px #ff68b4,
               4px 4px black,
-              6px 6px #cc00ff;
+              6px 6px #bc8ce2;
 }
+
+// img {
+//   border: 3px solid black;
+// }
 
 .lumina-image-position {
   width: auto;
@@ -873,9 +878,10 @@ font-family: 'Barrio', cursive;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   z-index: 3;
-  box-shadow:2px 2px #ff1f8f,
+  border: 3px solid black;
+  box-shadow:2px 2px #ff68b4,
               4px 4px black,
-              6px 6px #cc00ff;
+              6px 6px #bc8ce2;
 }
 
 .lumina-paragraph {
@@ -903,8 +909,13 @@ font-family: 'Barrio', cursive;
   background-color: #67829B;
   height: auto;
   padding: 36px;
+  border: 3px solid black;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow:
+            2px 2px #0089ff,
+            4px 4px black,
+            6px 6px #adadff;
 }
 
 .spin-paragraph {
@@ -933,7 +944,12 @@ font-family: 'Barrio', cursive;
   right: -40px;
   top: 0;
   border-radius: 8px;
+  border: 3px solid black;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow:
+            2px 2px #0089ff,
+            4px 4px black,
+            6px 6px #adadff;
 }
 
 .spin-position {
