@@ -143,6 +143,18 @@
   .about .d-flex-toggle {
     display:flex!important;
   }
+  .fun-fact {
+    left: -100px!important;
+  }
+  .contact-about {
+    right:100px!important
+  }
+ .interests p {
+  width:570px!important;
+ }
+ .about-header {
+  left:80px!important
+ }
 }
 
 
@@ -151,6 +163,9 @@
   .custom-container {
     margin-left: 45px!important;
     margin-right: 45px!important;
+  }
+  .begin .header-text {
+    font-size: 64px;
   }
   .the-start {
   max-width:900px!important;
@@ -452,6 +467,7 @@
   .interests p {
     text-align:center;
     margin-top:24px;
+    width:inherit!important;
   }
   .interests-container {
     margin-top: 16px;
