@@ -861,6 +861,22 @@ box-shadow:2px 2px #ff1f8f,
   -webkit-text-stroke-color: black;
 }
 
+.skills .header-text-light {
+  font-family: 'Raleway', cursive;
+  font-weight: 500;
+  color: white;
+  text-decoration: underline;
+  font-size: 64px;
+  letter-spacing:0.04em;
+  text-shadow:
+            2px 2px #fef281,
+            4px 4px black,
+            6px 6px #3d3d3d;
+  text-border: 3px solid #000000;
+  // text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
 
 .begin h4 {
 text-align: center;
