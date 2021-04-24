@@ -83,6 +83,17 @@
   margin:20px;
 }
 
+.contact-port {
+  padding:6px;
+  border: 3px solid black;
+  box-shadow:
+            2px 2px #755397,
+            4px 4px black,
+            6px 6px #207e95;
+  background-color: #207E95;
+  margin:20px;
+}
+
 h6 {
   border: 3px solid black;
   padding:8px;
@@ -179,6 +190,26 @@ h6 {
   color:black;
 }
 
+.port-button {
+  font-family: Raleway;
+  font-weight: 300;
+  // background-color: #DAD1E9;
+  padding: 16px 24px;
+  border-radius: 8px;
+  min-width: 110px;
+  border: 3px solid black;
+  transition: 0.5s;
+  box-shadow:
+            2px 2px #755397,
+            4px 4px black,
+            6px 6px #207e95;
+}
+
+.port-button:hover {
+  background-color:#207e95;
+  font-weight:500;
+  color:white;
+}
 
 .preview {
   background-color: #DAD1E9;
