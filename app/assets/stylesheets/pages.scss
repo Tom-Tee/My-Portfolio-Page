@@ -72,6 +72,17 @@
   margin:20px;
 }
 
+.contact-article {
+  padding:6px;
+  border: 3px solid black;
+  box-shadow:
+            2px 2px #8566c1,
+            4px 4px black,
+            6px 6px #88aae8;
+  background-color: #222222;
+  margin:20px;
+}
+
 h6 {
   border: 3px solid black;
   padding:8px;
@@ -117,7 +128,7 @@ h6 {
 .rad-button {
   font-family: Raleway;
   font-weight: 300;
-  // background-color: #DAD1E9;
+  background-color: #DAD1E9;
   padding: 16px 24px;
   border-radius: 8px;
   min-width: 110px;
@@ -142,6 +153,27 @@ h6 {
 }
 
 .rad-button:hover {
+  background-color:#0C6787;
+  font-weight:500;
+  color:#eaeaea;
+}
+
+.article-button {
+  font-family: Raleway;
+  font-weight: 300;
+  // background-color: #DAD1E9;
+  padding: 16px 24px;
+  border-radius: 8px;
+  min-width: 110px;
+  border: 3px solid black;
+  transition: 0.5s;
+  box-shadow:
+            2px 2px #8566c1,
+            4px 4px black,
+            6px 6px #88aae8;
+}
+
+.article-button:hover {
   background-color:#7bceff;
   font-weight:500;
   color:#eaeaea;
