@@ -154,7 +154,7 @@
           </div>
           <div class="d-flex button-selection-lumina">
             <div class="toggle-visibility">
-              <button class="rad-button port-button preview text-center" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+              <button class="rad-button preview text-center" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                 PREVIEW
               </button>
             </div>
@@ -205,8 +205,12 @@
             </div>
           </div>
           <div class="d-flex button-selection-spin">
-            <div class="article-button toggle-visibility pport-button preview text-center">PREVIEW</div>
-            <div class="article-button site text-center">SITE</div>
+            <div class="toggle-visibility">
+              <button class="article-button preview text-center" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                PREVIEW
+              </button>
+            </div>
+            <div class="article-button site text-center"><a href="https://rad-man.herokuapp.com" target="_blank">SITE</a></div>
           </div>
         </div>
       </div>
@@ -372,7 +376,7 @@
       <div class='width-fix'>
         <div class="about-flex header-text-light d-flex justify-content-end">
           <!-- <p class="pr-3">Portfolio</p> -->
-          <div class="d-flex-toggle justify-content-between contact contact-about change-position">
+          <div class="justify-content-between contact contact-about change-position">
             <a href=""> <%= image_tag "p-email", style:'padding-top:8px;' %> </a>
             <a href="https://github.com/Tom-Tee" target="_blank"> <%= image_tag "p-github" %> </a>
             <a href="https://www.linkedin.com/in/thomas-temple/" target="_blank"> <%= image_tag "p-linkedin", style:'padding-top:4px' %> </a>
@@ -384,7 +388,7 @@
           </div>
           <div class="development d-flex">
             <div class='align-items-selector'>
-              <%= image_tag "me", style:"height:160px; border-radius:50%; margin-left:50px; margin-top:10px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;" %>
+              <%= image_tag "me", style:"height:160px; border-radius:50%; border:3px solid black; margin-left:50px; margin-top:10px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;" %>
             </div>
             <div class="m-3">
               <h4 class="about-text">Development</h4>

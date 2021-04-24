@@ -50,9 +50,17 @@
   .port-spin {
     height:800px!important;
   }
+   .site {
+    margin-right:120px!important;
+    width: 200px;
+  }
   .port-rad {
     height:800px!important;
   }
+  // .button-selection-rad .site {
+  //   margin-right:100px!important;
+  //   width: 200px;
+  // }
   .port-article {
     height:800px!important;
   }
@@ -127,7 +135,7 @@
   }
   .tools-skills {
     top:0px!important;
-    width:auto!important;
+    width:100%!important;
     }
   .toggle-visibility {
     content-visibility: hidden!important;
@@ -468,6 +476,12 @@
   .begin h4 {
     text-align: center;
   }
+  .begin .header-text {
+    font-size: 48px;
+  }
+  .media-icons {
+    margin: 16px;
+  }
   .top-response {
     flex-direction: column;
     text-align:center;
@@ -495,7 +509,7 @@
     height: auto!important;
   }
   .port-lumina {
-    height: 1172px !important;
+    height: 1200px !important;
   }
   .central-container-lumina {
     position: inherit!important;
@@ -509,7 +523,7 @@
     margin-left:58px;
   }
   .port-spin {
-    height: 1120px !important;
+    height: 1220px !important;
   }
   .spin-position {
     position:inherit!important;
@@ -543,12 +557,13 @@
     border-radius: 0px!important;
     margin-bottom: 20px!important;
   }
+
  .button-selection-spin {
     justify-content: center;
     position:inherit!important;
   }
  .port-rad {
-    height: 1078px !important;
+    height: 1260px !important;
   }
   .rad-text {
     font-size: 42px!important;
@@ -592,13 +607,13 @@
     height: auto!important;
   }
   .port-article {
-    height: 1128px !important;
+    height: 1260px !important;
     }
   .port-portfolio {
-    height: 1068px !important;
+    height: 1230px !important;
     }
   .skills {
-    height: 2228px!important;
+    height: 2272px!important;
   }
   .change-to-column {
     flex-direction: column!important;
@@ -620,7 +635,7 @@
     margin-left: 0px!important;
     margin-top: 60px;
     width: 100%!important;
-    height: 350px!important;
+    height: 400px!important;
   }
   .skills-text {
     margin-left:0px!important;
@@ -664,12 +679,15 @@
     width: inherit;
   }
   .about {
-    height: 1920px!important;
+    height: 1600px!important;
   }
   .about-dflex-change {
     display:inherit!important;
     // flex-direction: column;
     // align-items: inherit!important;
+  }
+  .about .d-flex-toggle {
+    display:inherit!important;
   }
   .content-selector {
     display:inherit;
@@ -698,6 +716,7 @@
   }
   .development p {
     text-align: center;
+    margin: 20px;
   }
   .home {
     height:100%!important;
@@ -710,6 +729,7 @@
   }
   .flag-container {
     margin:auto;
+    margin-bottom: 12px;
   }
   .home p {
     text-align:center;
@@ -722,10 +742,11 @@
     padding-top: 0px;
   }
   .interests {
-    height:100%!important;
+    // height:100%!important;
     width:100%!important;
     display:inherit!important;
     margin-bottom: 16px;
+    height: 400px!important;
   }
   .display-selector {
     display:inherit!important;
@@ -740,6 +761,10 @@
   .fun-fact {
     position: inherit!important;
     width:100%!important;
+    height: 220px!important;
+  }
+  .fun-fact p {
+    margin:20px;
   }
 }
 
