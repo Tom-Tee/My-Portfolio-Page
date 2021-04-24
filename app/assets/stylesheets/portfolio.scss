@@ -941,6 +941,9 @@ font-family: 'Barrio', cursive;
   right: 40%;
   top: 8%;
   font-size: 54px !important;
+  font-family: 'Barrio', cursive!important;
+  font-size: 54px !important;
+  letter-spacing: 0.1em;
 }
 
 .lumina-content {
@@ -1109,24 +1112,30 @@ font-family: 'Barrio', cursive;
 }
 
 .spin-text {
+  font-family: 'Barrio', cursive!important;
   position: absolute;
   top: -78px;
   right: 500px;
   font-size: 54px !important;
+  letter-spacing: 0.1em;
 }
 
 .rad-text {
+  font-family: 'Barrio', cursive!important;
   position: absolute;
   top: -78px;
   right: 500px;
-  font-size: 54px;
+  font-size: 54px !important;
+  letter-spacing: 0.1em;
 }
 
 .article-text {
+  font-family: 'Barrio', cursive!important;
   position: absolute;
   top: -78px;
   right: 500px;
-  font-size: 54px;
+  font-size: 54px !important;
+  letter-spacing: 0.1em;
 }
 
 .port-rad {
