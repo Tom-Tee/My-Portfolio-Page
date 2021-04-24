@@ -852,9 +852,9 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 64px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #8566c1,
+            2px 2px #207e95,
             4px 4px black,
-            6px 6px #88aae8;
+            6px 6px black;
   text-border: 3px solid #000000;
   // text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   -webkit-text-stroke-width: 1px;
@@ -1030,7 +1030,7 @@ font-family: 'Barrio', cursive;
   font-family: Raleway;
   font-size: 18px;
   color:white;
-  font-weight:100;
+  font-weight:500;
   margin:0;
   // padding-left:60px;
 }
@@ -1066,6 +1066,27 @@ font-family: 'Barrio', cursive;
             4px 4px black,
             6px 6px #88aae8;
 }
+
+//   text-shadow:
+//             2px 2px #207e95,
+//             4px 4px black,
+//             6px 6px black;
+
+// .port-image-position {
+//   // width: 710px;
+//   z-index: 1;
+//   height: 475px;
+//   position: absolute;
+//   right: -40px;
+//   top: 0;
+//   border-radius: 8px;
+//   border: 3px solid black;
+//   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+//   box-shadow:
+//             2px 2px #207e95,
+//             4px 4px black,
+//             6px 6px black;
+// }
 
 .spin-position {
   position: relative;
@@ -1114,7 +1135,7 @@ font-family: 'Barrio', cursive;
   width: 375px;
   height: 600px;
   position: absolute;
-  right: -29px;
+  right: -38px;
   top: 37px;
   // background-color: #305577;
   height: 464px;
@@ -1186,7 +1207,11 @@ font-family: 'Barrio', cursive;
   left: -20px;
   top: 0;
   border-radius: 8px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow:
+            2px 2px #755397,
+            4px 4px black,
+            6px 6px #207e95;
+  // box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   // box-shadow: rgba(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
 }
 
