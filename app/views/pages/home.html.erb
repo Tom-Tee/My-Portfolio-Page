@@ -213,6 +213,22 @@
     </div>
   </div>
 
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content modal-rad">
+                <div class="modal-header rad-modal-header">
+                  <h5 class="modal-title text-center" id="staticBackdropLabel">That's Rad Man</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body rad-modal-body">
+                  <%= image_tag "rad-site", style:"width: 1106px;" %>
+                  <!-- <objexct type="text/html" data="https://www.love-lumina.me/"></object> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
 <!-- PORTFOLIO FIGMA -->
 
   <div class="port-portfolio">
@@ -237,16 +253,38 @@
                 <p class= "other-paragraph" >The Figma design for the landing page that you are on right now! I wanted to create a portfolio that was simple and original. Oh, and did I mention that it is responsive? (that's right, this landing page is responsive, try it out!) Figma is an incredible tool for web design and allows creativity to flow very easily. Feel free to have a look and see how my basic design went from the original sketches to the finished product. </p>
               </div>
             </div>
-            <div class="d-flex button-selection-lumina">
-              <div class="port-button preview text-center">PREVIEW</div>
-              <div class="port-button site text-center">SITE</div>
+          <div class="d-flex button-selection-lumina">
+            <div class="toggle-visibility">
+              <button class="port-button port-button preview text-center" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+                PREVIEW
+              </button>
             </div>
+            <div class="port-button site text-center"><a href="https://rad-man.herokuapp.com" target="_blank">SITE</a></div>
+          </div>
           </div>
         </div>
       </div>
 
     </div>
   </div>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content modal-rad">
+                <div class="modal-header rad-modal-header">
+                  <h5 class="modal-title text-center" id="staticBackdropLabel">That's Rad Man</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body rad-modal-body">
+                  <%= image_tag "figma-design", style:"width: 1106px;" %>
+                  <!-- <objexct type="text/html" data="https://www.love-lumina.me/"></object> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 <!-- SKILLS -->
 
@@ -334,14 +372,14 @@
       <div class='width-fix'>
         <div class="about-flex header-text-light d-flex justify-content-end pt-4">
           <!-- <p class="pr-3">Portfolio</p> -->
-          <div class="d-flex-toggle justify-content-between contact change-position">
-            <a href=""> <%= image_tag "p-email" %> </a>
+          <div class="d-flex-toggle justify-content-between contact contact-about change-position">
+            <a href=""> <%= image_tag "p-email", style:'padding-top:8px;' %> </a>
             <a href="https://github.com/Tom-Tee" target="_blank"> <%= image_tag "p-github" %> </a>
-            <a href="https://www.linkedin.com/in/thomas-temple/" target="_blank"> <%= image_tag "p-linkedin" %> </a>
+            <a href="https://www.linkedin.com/in/thomas-temple/" target="_blank"> <%= image_tag "p-linkedin", style:'padding-top:4px' %> </a>
           </div>
         </div>
         <div class="about-dflex-change" style="align-items: flex-end;">
-          <div class="about-header skills-text">
+          <div class="about-header abouts-text">
             about
           </div>
           <div class="development d-flex">

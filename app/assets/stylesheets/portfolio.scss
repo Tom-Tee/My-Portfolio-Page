@@ -835,7 +835,7 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 64px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #8566c1,
+            2px 2px #b599ee,
             4px 4px black,
             6px 6px #88aae8;
   text-border: 3px solid #000000;
@@ -1031,7 +1031,7 @@ font-family: 'Barrio', cursive;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   box-shadow:
-            2px 2px #8566c1,
+            2px 2px #b599ee,
             4px 4px black,
             6px 6px #88aae8;
 }
@@ -1081,7 +1081,7 @@ font-family: 'Barrio', cursive;
   border: 3px solid black;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   box-shadow:
-            2px 2px #8566c1,
+            2px 2px #b599ee,
             4px 4px black,
             6px 6px #88aae8;
 }
@@ -1183,6 +1183,7 @@ font-family: 'Barrio', cursive;
   left: -14px;
   top: 0;
   border-radius: 8px;
+  border: 3px solid black;
   box-shadow:
             2px 2px #00dcff,
             4px 4px black,
@@ -1234,6 +1235,7 @@ font-family: 'Barrio', cursive;
   width:693px;
   position: absolute;
   left: -20px;
+  border: 3px solid black;
   top: 0;
   border-radius: 8px;
   box-shadow:
@@ -1344,7 +1346,7 @@ font-family: 'Barrio', cursive;
   text-align:right;
   padding-right:20px;
     position: relative;
-    top: -40px;
+    top: -80px;
     left: -40px;
 }
 
@@ -1356,19 +1358,25 @@ font-family: 'Barrio', cursive;
   height:200px;
   width:900px;
   background-color: #D8DDE9;
+  box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
+  border:3px solid black;
 }
 
 .home {
   height:200px;
   width:900px;
   background-color: #CABEFA;
+  box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
   // margin: 11px;
+  border:3px solid black;
 }
 
 .interests {
   height:200px;
   width:900px;
   background-color: #C9D1FF;
+  box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
+  border:3px solid black;
 }
 
 .fun-fact {
@@ -1378,6 +1386,7 @@ font-family: 'Barrio', cursive;
   position: relative;
   top: -80px;
   left: 48px;
+  border:3px solid black;
 }
 
 .about-text {
@@ -1386,9 +1395,30 @@ font-family: 'Raleway', cursive;
   font-size: 40px;
   text-border: 3px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke-width: 1.0px;
-  -webkit-text-stroke-color: black;
+  // -webkit-text-stroke-width: 1.0px;
+  // -webkit-text-stroke-color: black;
+    // letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.0px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
 }
+
+
+.abouts-text {
+    font-family: 'Barrio', cursive;
+    color: white;
+    font-size: 48px;
+    text-border: 3px solid #000000;
+    border: 3px solid black;
+    box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px #3d3d3d;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.0px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
+}
+
 
 .flag-container {
   height: 155px;
@@ -1397,6 +1427,7 @@ font-family: 'Raleway', cursive;
   border-radius:50%;
   margin-right:124px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border:3px solid black;
 }
 
 .interests-container {
@@ -1406,6 +1437,7 @@ font-family: 'Raleway', cursive;
   border-radius:50%;
   margin-left:50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border:3px solid black;
 }
 
 .content-between-toggle {
