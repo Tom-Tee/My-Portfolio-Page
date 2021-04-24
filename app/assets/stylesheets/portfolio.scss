@@ -1,7 +1,7 @@
 @media only screen and (max-width: 2400px) {
     .custom-container {
-    margin-left: 250px!important;
-    margin-right: 250px!important;
+    margin-left: 200px!important;
+    margin-right: 200px!important;
   }
 }
 
@@ -142,6 +142,10 @@
   }
   .about .d-flex-toggle {
     display:flex!important;
+  }
+
+  .about-dflex-change {
+    justify-content: inherit!important;
   }
   .fun-fact {
     left: -100px!important;
@@ -414,6 +418,7 @@
     width:700px!important;
     display:inherit!important;
     margin-bottom: 16px;
+    margin-top: 20px!important;
   }
   .development img {
     margin-top:22px!important;
@@ -479,6 +484,13 @@
   }
   .select-header-flex {
     display:inherit!important;
+  }
+  .change-position {
+    position:inherit!important;
+    width:100%!important;
+  }
+  .about-header {
+    margin:32px;
   }
 }
 
@@ -632,7 +644,7 @@
     height: 1230px !important;
     }
   .skills {
-    height: 2272px!important;
+    height: 2300px!important;
   }
   .change-to-column {
     flex-direction: column!important;
@@ -698,7 +710,7 @@
     width: inherit;
   }
   .about {
-    height: 1600px!important;
+    height: 1680px!important;
   }
   .about-dflex-change {
     display:inherit!important;
@@ -1358,7 +1370,7 @@ font-family: 'Barrio', cursive;
   width: 350px;
   height: 350px;
   background-color: #3D3D3D;
-  margin-left:34px;
+  // margin-left:34px;
   position: relative;
   top: -20px;
   border: 3px solid black;
@@ -1537,6 +1549,10 @@ font-family: 'Raleway', cursive;
 //   height:auto;
 //   width:auto;
 // }
+
+.site {
+  text-decoration:none;
+}
 
 * {
   margin: 0;
