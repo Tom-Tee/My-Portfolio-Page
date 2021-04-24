@@ -94,6 +94,17 @@
   margin:20px;
 }
 
+.contact-skills {
+  padding:6px;
+  border: 3px solid black;
+  box-shadow:
+            2px 2px #fef281,
+            4px 4px black,
+            6px 6px #3d3d3d;
+  background-color: #3d3d3d;
+  margin:20px;
+}
+
 h6 {
   border: 3px solid black;
   padding:8px;
@@ -248,6 +259,11 @@ h6 {
   position: relative;
   // right: -100px;
   border-radius: 4px;
+  border: 3px solid black;
+  box-shadow:
+            2px 2px #fef281,
+            4px 4px black,
+            6px 6px #3d3d3d;
 }
 
 .about-inner p {
