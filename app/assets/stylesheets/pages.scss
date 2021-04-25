@@ -142,6 +142,9 @@ h6 {
   box-shadow:2px 2px #ff68b4,
               4px 4px black,
               6px 6px #bc8ce2;
+  a {
+    color:black;
+  }
 }
 
 .spin-button {
@@ -157,6 +160,9 @@ h6 {
             2px 2px #0089ff,
             4px 4px black,
             6px 6px #adadff;
+    a {
+    color:black;
+  }
 }
 
 .rad-button {
@@ -172,24 +178,36 @@ h6 {
             2px 2px #00dcff,
             4px 4px black,
             6px 6px #adadff;
+    a {
+    color:black;
+  }
 }
 
 .lumina-button:hover {
   background-color:#ff7272;
   font-weight:500;
   color:#eaeaea;
+    a {
+    color:#eaeaea;
+  }
 }
 
 .spin-button:hover {
   background-color:#7bceff;
   font-weight:500;
   color:navy;
+    a {
+    color:navy;
+  }
 }
 
 .rad-button:hover {
   background-color:#0C6787;
   font-weight:500;
   color:#eaeaea;
+    a {
+    color:#eaeaea;
+  }
 }
 
 .article-button {
@@ -205,12 +223,18 @@ h6 {
             2px 2px #8566c1,
             4px 4px black,
             6px 6px #88aae8;
+    a {
+    color:black;
+  }
 }
 
 .article-button:hover {
   background-color:white;
   font-weight:500;
   color:black;
+    a {
+    color:black;
+  }
 }
 
 .port-button {
@@ -226,12 +250,18 @@ h6 {
             2px 2px #755397,
             4px 4px black,
             6px 6px #207e95;
+    a {
+    color:black;
+  }
 }
 
 .port-button:hover {
   background-color:#207e95;
   font-weight:500;
   color:white;
+    a {
+    color:white;
+  }
 }
 
 .preview {
