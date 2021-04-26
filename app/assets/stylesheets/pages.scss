@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+a {
+    text-decoration:none;
+    display: block;
+}
 
 .contact {
   width: 400px;
@@ -373,3 +377,4 @@ h6 {
   height: 5516px;
   background-color: #207E95;
 }
+
