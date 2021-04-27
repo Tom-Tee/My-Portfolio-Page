@@ -28,7 +28,7 @@ gem 'bootstrap', '~> 4.5.3'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'pg'
 gem 'dotenv-rails', groups: [:development, :test]
-gem 'sqlite3'
+
 gem 'cloudinary', '~> 1.16.0'
 
 
