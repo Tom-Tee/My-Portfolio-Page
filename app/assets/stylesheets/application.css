@@ -1980,12 +1980,17 @@ font-family: 'Raleway', cursive;
 
 .media-icons {
   transition: 0.3s;
+      margin-top: 20px;
 }
 
 .media-icons:hover {
   background-color:#FF68B3;
   transition: 0.3s;
   /*border: 3px solid black;*/
+}
+
+.top-nav {
+  padding-bottom: 14px;
 }
 
 * {
