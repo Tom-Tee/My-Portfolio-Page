@@ -1385,6 +1385,7 @@ font-family: 'Barrio', cursive;
   font-weight: lighter;
   font-size: 32px;
   color:#F0F7F4;
+  transition: 0.3s;
 /*  // -webkit-text-stroke-width: 0.1px;
   // -webkit-text-stroke-color: black;*/
 }
@@ -1394,6 +1395,7 @@ font-family: 'Barrio', cursive;
     color: black;
     font-weight: 100;
     margin-bottom: 0px!important;
+      transition: 0.3s;
 }
 
 .port-lumina {
@@ -1968,6 +1970,22 @@ font-family: 'Raleway', cursive;
 
 .site {
   text-decoration:none;
+}
+
+.media-icons img {
+  /*border:  2px solid black;*/
+  height: 74px;
+  /*box-shadow: 2px 2px #ff68b4, 4px 4px black, 6px 6px #bc8ce2;*/
+}
+
+.media-icons {
+  transition: 0.3s;
+}
+
+.media-icons:hover {
+  background-color:#FF68B3;
+  transition: 0.3s;
+  /*border: 3px solid black;*/
 }
 
 * {
