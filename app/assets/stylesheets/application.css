@@ -1206,9 +1206,6 @@ h6 {
   }
 }
 
-.top-nav:hover {
-  fill:red;
-}
 
 .testy {
 box-shadow:2px 2px #ff1f8f,
@@ -1386,10 +1383,17 @@ font-family: 'Barrio', cursive;
   font-family: Raleway;
   font-style: normal;
   font-weight: lighter;
-  font-size: 36px;
+  font-size: 32px;
   color:#F0F7F4;
 /*  // -webkit-text-stroke-width: 0.1px;
   // -webkit-text-stroke-color: black;*/
+}
+
+.top-nav h6:hover {
+  background-color: #FF68B3;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0px!important;
 }
 
 .port-lumina {
