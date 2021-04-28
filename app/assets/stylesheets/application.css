@@ -1957,6 +1957,11 @@ font-family: 'Raleway', cursive;
 //   width:auto;
 // }*/
 
+.spin-paragraph a {
+  color: #6400ff;
+  text-decoration: underline;
+}
+
 .site {
   text-decoration:none;
 }

@@ -28,13 +28,13 @@ gem 'bootstrap', '~> 4.5.3'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'pg'
 gem 'dotenv-rails', groups: [:development, :test]
-
 gem 'cloudinary', '~> 1.16.0'
 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'sqlite3'
 end
 
 group :development do
