@@ -1391,8 +1391,8 @@ font-family: 'Barrio', cursive;
 
 .top-nav h6:hover {
   background-color: #FF68B3;
-    color: white;
-    font-weight: 500;
+    color: black;
+    font-weight: 100;
     margin-bottom: 0px!important;
 }
 
