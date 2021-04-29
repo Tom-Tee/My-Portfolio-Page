@@ -879,6 +879,9 @@ h6 {
     display:inherit!important;
     margin-bottom: 16px;
   }
+  .fun-fact p {
+    margin-top:0px!important;
+  }
   .display-selector {
     display:inherit!important;
   }
@@ -1123,7 +1126,7 @@ h6 {
     width: inherit;
   }
   .about {
-    height: 1680px!important;
+    height: 1800px!important;
   }
   .about-dflex-change {
     display:inherit!important;
@@ -1774,7 +1777,7 @@ font-family: 'Barrio', cursive;
 
 .about {
   background-color: #705693;
-  height: 760px;
+  height: 800px;
   width:auto;
 }
 
@@ -1838,7 +1841,7 @@ font-family: 'Barrio', cursive;
 }
 
 .home {
-  height:200px;
+  height:220px;
   width:900px;
   background-color: #CABEFA;
   box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
@@ -1875,7 +1878,7 @@ font-family: 'Barrio', cursive;
   -webkit-text-stroke-width: 1.0px;
   -webkit-text-stroke-color: black;
   letter-spacing: 0.1em;
-  text-shadow: 2px 2px #45484a;
+  text-shadow: 2px 2px black;
 }
 
 
