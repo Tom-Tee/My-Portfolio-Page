@@ -403,6 +403,12 @@ h6 {
 
 /*PORT*/
 
+@media only screen and (max-width: 2600px) {
+    .custom-container {
+    margin-left: 300px!important;
+    margin-right: 300px!important;
+  }
+}
 
 
 @media only screen and (max-width: 2400px) {
