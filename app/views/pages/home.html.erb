@@ -422,9 +422,14 @@
           </div>
         </div>
         <div class="about-dflex-change" style="align-items: flex-end;">
-          <div class="about-header abouts-text">
-            about
-          </div>
+            <!-- <div class="about-header abouts-text"> -->
+                        <button class="about-header abouts-text">
+                          <!-- <div> -->
+
+              <%= link_to "Download Resume", download_cv_path, target: "_blank", class:""%>
+                          <!-- </div> -->
+                        </button>
+            <!-- </div> -->
           <div class="development d-flex">
             <div class='align-items-selector'>
               <%= cl_image_tag("met_x8gkid", :style=>'height:160px; border-radius:50%; border:3px solid black; margin-left:50px; margin-top:10px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;"', :cloud_name => 'demuds3g0') %>
