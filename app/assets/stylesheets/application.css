@@ -1246,11 +1246,11 @@ box-shadow:2px 2px #ff1f8f,
 
 
 .port-lumina .header-text-light {
-  font-family: 'Raleway', cursive;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 48px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #ff68b4,
@@ -1262,12 +1262,20 @@ box-shadow:2px 2px #ff1f8f,
   -webkit-text-stroke-color: black;
 }
 
+.contact img {
+  width: 75px;
+}
+
+.contact {
+  height: 84px;
+}
+
 .port-spin .header-text-light {
-  font-family: 'Raleway', cursive;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 50px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #0089ff,
@@ -1280,11 +1288,11 @@ box-shadow:2px 2px #ff1f8f,
 }
 
 .port-rad .header-text-light {
-  font-family: 'Raleway', cursive;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 50px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #00dcff,
@@ -1297,11 +1305,11 @@ box-shadow:2px 2px #ff1f8f,
 }
 
 .port-article .header-text-light {
-  font-family: 'Raleway', cursive;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 50px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #b599ee,
@@ -1314,11 +1322,11 @@ box-shadow:2px 2px #ff1f8f,
 }
 
 .port-portfolio .header-text-light {
-  font-family: 'Raleway', cursive;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 50px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #755397,
@@ -1331,11 +1339,11 @@ box-shadow:2px 2px #ff1f8f,
 }
 
 .skills .header-text-light {
-  font-family: 'Raleway', cursive;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 64px;
+  font-size: 50px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #fef281,
@@ -1346,6 +1354,11 @@ box-shadow:2px 2px #ff1f8f,
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
+
+/*.contact:hover {
+  background-color: #FF68B4;
+  transition: 0.3s;
+}*/
 
 .begin h4 {
 text-align: center;
