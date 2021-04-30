@@ -1245,12 +1245,55 @@ box-shadow:2px 2px #ff1f8f,
 // }*/
 
 
+.portfolio-header {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:40px;
+  color:white;
+  font-size:22px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.lumina-color {
+  background-color:#211840;
+}
+
+.spin-color {
+  background-color: #67829B;
+}
+
+.radh-color {
+  background-color: #0F6687;
+}
+
+.article-color {
+  background-color: #222323;
+}
+
+.portfolio-color {
+  background-color: #1F7E94;
+}
+
+.skills-color {
+  background-color:#FFF281;
+  color:black!important;
+}
+
+.about-color {
+  background-color: #E3BABA;
+  color:black!important;
+}
+
 .port-lumina .header-text-light {
   font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 48px;
+  font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #ff68b4,
@@ -1272,7 +1315,7 @@ box-shadow:2px 2px #ff1f8f,
 
 .port-spin .header-text-light {
   font-family: 'Barrio', cursive;
-  font-weight: 500;
+  font-weight: 54px;
   color: white;
   text-decoration: underline;
   font-size: 50px;
@@ -1292,7 +1335,7 @@ box-shadow:2px 2px #ff1f8f,
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 50px;
+  font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #00dcff,
@@ -1309,7 +1352,7 @@ box-shadow:2px 2px #ff1f8f,
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 50px;
+  font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #b599ee,
@@ -1326,7 +1369,7 @@ box-shadow:2px 2px #ff1f8f,
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 50px;
+  font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #755397,
@@ -1343,7 +1386,7 @@ box-shadow:2px 2px #ff1f8f,
   font-weight: 500;
   color: white;
   text-decoration: underline;
-  font-size: 50px;
+  font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
             2px 2px #fef281,
