@@ -1236,6 +1236,62 @@ h6 {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .port-lumina {
+    height:1250px!important;
+  }
+  .spin-image-position {
+    width: 360px!important;
+    margin: 20px;
+  }
+  .spin-content {
+    width: 360px!important;
+    margin: 20px;
+  }
+  .port-spin {
+    height: 1220px !important;
+  }
+  .port-rad {
+    height: 1250px !important;
+  }
+  .article-image-position {
+    width: 360px!important;
+    margin: 20px;
+  }
+  .article-content {
+    width: 360px!important;
+    margin: 20px;
+  }
+  .port-article {
+    height:1230px!important;
+  }
+  .port-portfolio {
+    height:1175px!important;
+  }
+  .front-end-skills {
+    width: 360px!important;
+    margin: 30px;
+  }
+  .backennd-skills {
+    width: 360px!important;
+    margin: 30px!important;
+  }
+  .tools-skills {
+    width: 360px!important;
+    margin: 30px!important;
+  }
+  .skills {
+    height:2500px!important;
+  }
+
+
+
+
+  .about {
+    height: 2550px!important
+  }
+}
+
 
 .testy {
 box-shadow:2px 2px #ff1f8f,
