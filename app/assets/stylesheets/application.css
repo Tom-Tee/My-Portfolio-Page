@@ -1283,12 +1283,15 @@ h6 {
   .skills {
     height:2500px!important;
   }
-
+  .skills-text {
+    width: 360px;
+    margin-left: 28px!important;
+  }
 
 
 
   .about {
-    height: 2550px!important
+    height: 2150px!important
   }
 }
 
