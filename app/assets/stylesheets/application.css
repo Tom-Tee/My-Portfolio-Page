@@ -15,6 +15,11 @@
  */
 /*@import 'portfolio';*/
 
+html,body
+{
+    overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -597,7 +602,9 @@ h6 {
 
 
 @media only screen and (max-width: 900px) {
-
+  .port-lumina .contact {
+    margin:20px;
+  }
   .custom-container {
     margin-left: 45px!important;
     margin-right: 45px!important;
@@ -629,7 +636,7 @@ h6 {
     margin-bottom: 20px!important;
   }
   .lumina-paragraph {
-    font-size: 17px;
+    font-size: 17px!important;
   }
   .lumina-content {
     position: inherit!important;
@@ -639,7 +646,7 @@ h6 {
     height: auto!important;
   }
   .port-lumina {
-    height:1240px!important;
+    height:1320px!important;
   }
   .content-between-toggle {
     display:flex;
@@ -664,6 +671,9 @@ h6 {
   }
  .port-spin {
     height:1240px!important;
+  }
+  .spin-paragraph {
+    font-size: 17px!important;
   }
   .spin-text {
     text-align: center;
@@ -710,6 +720,9 @@ h6 {
     font-size: 42px!important;
     position: initial!important;
     text-align:center;
+  }
+  .other-paragraph {
+    font-size: 17px!important;
   }
   .article-text {
     font-size: 42px!important;
