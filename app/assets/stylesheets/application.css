@@ -1507,11 +1507,11 @@ font-family: 'Barrio', cursive;
   text-border: 3px solid #000000;
   letter-spacing:0.1em;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2.0px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
   text-shadow:
-            2px 2px #ff68b4,
-            6px 6px black;
+            1px 1px #ff68b4,
+            3px 3px black;
 /*  // -webkit-text-stroke-width: 2px;
   // -webkit-text-stroke-color: white;*/
 }
