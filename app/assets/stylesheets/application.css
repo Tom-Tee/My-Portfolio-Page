@@ -1431,9 +1431,9 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #00dcff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #00dcff,
+            2px 2px black,
+            3px 3px #adadff;
   text-border: 3px solid #000000;
   /*// text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
   -webkit-text-stroke-width: 1px;
@@ -1448,9 +1448,9 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #b599ee,
-            4px 4px black,
-            6px 6px #88aae8;
+            1px 1px #b599ee,
+            2px 2px black,
+            3px 3px #88aae8;
   text-border: 3px solid #000000;
   /*// text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
   -webkit-text-stroke-width: 1px;
@@ -1465,9 +1465,9 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #755397,
-            4px 4px black,
-            6px 6px #207e95;
+            1px 1px #755397,
+            2px 2px black,
+            3px 3px #207e95;
   text-border: 3px solid #000000;
   /*// text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
   -webkit-text-stroke-width: 1px;
@@ -1482,9 +1482,9 @@ box-shadow:2px 2px #ff1f8f,
   font-size: 54px;
   letter-spacing:0.04em;
   text-shadow:
-            2px 2px #fef281,
-            4px 4px black,
-            6px 6px #3d3d3d;
+            1px 1px #fef281,
+            2px 2px black,
+            3px 3px #3d3d3d;
   text-border: 3px solid #000000;
   /*// text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
   -webkit-text-stroke-width: 1px;
