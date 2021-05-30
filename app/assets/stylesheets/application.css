@@ -1905,14 +1905,14 @@ font-family: 'Barrio', cursive;
   font-family: raleway;
   font-size: 16px;
   color:#FEFEFE;
-  font-weight:500;
+  font-weight:300;
 }
 
 .skills-content-text-sml {
   font-family: raleway;
   font-size: 16px;
   color:#FEFEFE;
-  font-weight:500;
+  font-weight:300;
   max-height:180px;
 }
 
@@ -1934,7 +1934,7 @@ font-family: 'Barrio', cursive;
     font-family: "Raleway";
     font-size: 15px;
     color: black;
-    font-weight: 500;
+    font-weight: 350;
 }
 
 .backennd-skills {
