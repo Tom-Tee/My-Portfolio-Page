@@ -64,10 +64,10 @@ a {
 
 .media-icons {
   padding:6px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #ff68b4,
-            6px 6px black;
+            1px 1px #ff68b4,
+            3px 3px black;
 }
 
 .contact {
@@ -148,11 +148,11 @@ a {
 
 
 h6 {
-  border: 3px solid black;
+  border: 2px solid black;
   padding:8px;
   box-shadow:2px 2px #ff68b4,
-              4px 4px black,
-              6px 6px #bc8ce2;
+              3px 3px black,
+              4px 4px #bc8ce2;
 }
 /*
 .begin h4 {
