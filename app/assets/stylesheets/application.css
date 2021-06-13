@@ -72,21 +72,21 @@ a {
 
 .contact {
   padding:6px;
-  border: 3px solid black;
-  box-shadow:2px 2px #ff68b4,
-              4px 4px black,
-              6px 6px #bc8ce2;
+  border: 2px solid black;
+  box-shadow:1px 1px #ff68b4,
+              2px 2px black,
+              3px 3px #bc8ce2;
   background-color: #201840;
   border-radius: 8px;
 }
 
 .contact-spin {
   padding:6px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #0089ff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #0089ff,
+            2px 2px black,
+            3px 3px #adadff;
   background-color: #F5F6F4;
   margin:20px;
 }
@@ -168,10 +168,10 @@ h6 {
   border-radius: 8px;
   min-width: 110px;
   transition: 0.5s;
-  border: 3px solid black;
-  box-shadow:2px 2px #ff68b4,
-              4px 4px black,
-              6px 6px #bc8ce2;
+  border: 2px solid black;
+  box-shadow:1px 1px #ff68b4,
+              2px 2px black,
+              3px 3px #bc8ce2;
   a {
     color:black;
   }
@@ -184,12 +184,12 @@ h6 {
   padding: 16px 24px;
   border-radius: 8px;
   min-width: 110px;
-  border: 3px solid black;
+  border: 2px solid black;
   transition: 0.5s;
   box-shadow:
-            2px 2px #0089ff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #0089ff,
+            2px 2px black,
+            3px 3px #adadff;
     a {
     color:black;
   }
@@ -202,12 +202,12 @@ h6 {
   padding: 16px 24px;
   border-radius: 8px;
   min-width: 110px;
-  border: 3px solid black;
+  border: 1px solid black;
   transition: 0.5s;
   box-shadow:
-            2px 2px #00dcff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #00dcff,
+            2px 2px black,
+            3px 3px #adadff;
     a {
     color:black;
   }
@@ -247,12 +247,12 @@ h6 {
   padding: 16px 24px;
   border-radius: 8px;
   min-width: 110px;
-  border: 3px solid black;
+  border: 2px solid black;
   transition: 0.5s;
   box-shadow:
-            2px 2px #8566c1,
-            4px 4px black,
-            6px 6px #88aae8;
+            1px 1px #8566c1,
+            2px 2px black,
+            3px 3px #88aae8;
     a {
     color:black;
   }
@@ -275,12 +275,12 @@ h6 {
   padding: 16px 24px;
   border-radius: 8px;
   min-width: 110px;
-  border: 3px solid black;
+  border: 2px solid black;
   transition: 0.5s;
   box-shadow:
-            2px 2px #755397,
-            4px 4px black,
-            6px 6px #207e95;
+            1px 1px #755397,
+            2px 2px black,
+            3px 3px #207e95;
     a {
     color:black;
   }
@@ -1577,7 +1577,7 @@ font-family: 'Barrio', cursive;
   width: 375px;
   /*// height: 600px;*/
   position: absolute;
-  border: 3px solid black;
+  border: 2px solid black;
   right: -29px;
   top: 37px;
   background-color: #8645B9;
@@ -1586,9 +1586,9 @@ font-family: 'Barrio', cursive;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   /*// z-index: 100;*/
-  box-shadow:2px 2px #ff68b4,
-              4px 4px black,
-              6px 6px #bc8ce2;
+  box-shadow:1px 1px #ff68b4,
+              2px 2px black,
+              3px 3px #bc8ce2;
 }
 
 /*// img {
@@ -1604,10 +1604,10 @@ font-family: 'Barrio', cursive;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   z-index: 3;
-  border: 3px solid black;
-  box-shadow:2px 2px #ff68b4,
-              4px 4px black,
-              6px 6px #bc8ce2;
+  border: 2px solid black;
+  box-shadow:1px 1px #ff68b4,
+              2px 2px black,
+              3px 3px #bc8ce2;
 }
 
 .lumina-paragraph {
