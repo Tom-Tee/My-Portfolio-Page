@@ -93,33 +93,33 @@ a {
 
 .contact-rad {
   padding:6px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #00dcff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #00dcff,
+            2px 2px black,
+            3px 3px #adadff;
   background-color: #0C6787;
   margin:20px;
 }
 
 .contact-article {
   padding:6px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #b599ee,
-            4px 4px black,
-            6px 6px #88aae8;
+            1px 1px #b599ee,
+            2px 2px black,
+            3px 3px #88aae8;
   background-color: #222222;
   margin:20px;
 }
 
 .contact-port {
   padding:6px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #755397,
-            4px 4px black,
-            6px 6px #207e95;
+            1px 1px #755397,
+            2px 2px black,
+            3px 3px #207e95;
   background-color: #207E95;
   margin:20px;
 }
@@ -137,11 +137,11 @@ a {
 
 .contact-about {
   padding:6px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px white,
-            4px 4px black,
-            6px 6px #3d3d3d;
+            1px 1px white,
+            2px 2px black,
+            3px 3px #3d3d3d;
   background-color: #E3BABA;
   margin:20px;
 }
@@ -1635,13 +1635,13 @@ font-family: 'Barrio', cursive;
   background-color: #67829B;
   height: auto;
   padding: 36px;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   box-shadow:
-            2px 2px #0089ff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #0089ff,
+            2px 2px black,
+            3px 3px #adadff;
 }
 
 .article-content {
@@ -1654,13 +1654,13 @@ font-family: 'Barrio', cursive;
   background-color: #67829B;
   height: auto;
   padding: 36px;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   box-shadow:
-            2px 2px #b599ee,
-            4px 4px black,
-            6px 6px #88aae8;
+            1px 1px #b599ee,
+            2px 2px black,
+            3px 3px #88aae8;
 }
 
 .spin-paragraph {
@@ -1689,12 +1689,12 @@ font-family: 'Barrio', cursive;
   right: -40px;
   top: 0;
   border-radius: 8px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   box-shadow:
-            2px 2px #0089ff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #0089ff,
+            2px 2px black,
+            3px 3px #adadff;
 }
 
 .article-image-position {
@@ -1705,12 +1705,12 @@ font-family: 'Barrio', cursive;
   right: -40px;
   top: 0;
   border-radius: 8px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   box-shadow:
-            2px 2px #b599ee,
-            4px 4px black,
-            6px 6px #88aae8;
+            1px 1px #b599ee,
+            2px 2px black,
+            3px 3px #88aae8;
 }
 
 /*//   text-shadow:
@@ -1795,10 +1795,11 @@ font-family: 'Barrio', cursive;
   border-radius: 8px;
   /*// box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
   /*// z-index: 100;*/
+  border: 2px solid black;
   box-shadow:
-            2px 2px #00dcff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #00dcff,
+            2px 2px black,
+            3px 3px #adadff;
 }
 
 .rad-image-position {
@@ -1810,11 +1811,11 @@ font-family: 'Barrio', cursive;
   left: -14px;
   top: 0;
   border-radius: 8px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #00dcff,
-            4px 4px black,
-            6px 6px #adadff;
+            1px 1px #00dcff,
+            2px 2px black,
+            3px 3px #adadff;
   /*// box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
 }
 
@@ -1834,10 +1835,11 @@ font-family: 'Barrio', cursive;
   border-radius: 8px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   /*// z-index: 100;*/
+  border: 2px solid black;
   box-shadow:
-            2px 2px #755397,
-            4px 4px black,
-            6px 6px #207e95;
+            1px 1px #755397,
+            2px 2px black,
+            3px 3px #207e95;
 }
 
 .port-color {
@@ -1862,13 +1864,13 @@ font-family: 'Barrio', cursive;
   width:693px;
   position: absolute;
   left: -20px;
-  border: 3px solid black;
+  border: 2px solid black;
   top: 0;
   border-radius: 8px;
   box-shadow:
-            2px 2px #755397,
-            4px 4px black,
-            6px 6px #207e95;
+            1px 1px #755397,
+            2px 2px black,
+            3px 3px #207e95;
   /*// box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
   /*// box-shadow: rgba(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;*/
 }
