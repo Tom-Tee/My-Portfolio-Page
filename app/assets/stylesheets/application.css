@@ -128,9 +128,9 @@ a {
   padding:6px;
   border: 3px solid black;
   box-shadow:
-            2px 2px #fef281,
-            4px 4px black,
-            6px 6px #3d3d3d;
+            1px 1px #fef281,
+            2px 2px black,
+            3px 3px #3d3d3d;
   background-color: #3d3d3d;
   margin:20px;
 }
@@ -333,11 +333,11 @@ h6 {
   position: relative;
   /*// right: -100px;*/
   border-radius: 4px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #fef281,
-            4px 4px black,
-            6px 6px #3d3d3d;
+            1px 1px #fef281,
+            2px 2px black,
+            3px 3px #3d3d3d;
 }
 
 .about-inner p {
@@ -1345,10 +1345,10 @@ box-shadow:2px 2px #ff1f8f,
   height:40px;
   color:white;
   font-size:22px;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 6px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 .lumina-color {
@@ -1889,9 +1889,9 @@ font-family: 'Barrio', cursive;
   text-border: 3px solid #000000;
   border: 3px solid black;
   box-shadow:
-            2px 2px #fef281,
-            4px 4px black,
-            6px 6px #3d3d3d;
+            1px 1px #fef281,
+            2px 2px black,
+            3px 3px #3d3d3d;
   -webkit-text-stroke-width: 0.9px;
   -webkit-text-stroke-color: black;
     letter-spacing: 0.1em;
@@ -1946,11 +1946,11 @@ font-family: 'Barrio', cursive;
   /*// margin-left:34px;*/
   position: relative;
   top: -20px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #fef281,
-            4px 4px black,
-            6px 6px #3d3d3d;
+            1px 1px #fef281,
+            2px 2px black,
+            3px 3px #3d3d3d;
 }
 
 .tools-skills {
@@ -1961,11 +1961,11 @@ font-family: 'Barrio', cursive;
   position: relative;
   top: 30px;
   margin-right: 34px;
-  border: 3px solid black;
+  border: 2px solid black;
   box-shadow:
-            2px 2px #fef281,
-            4px 4px black,
-            6px 6px #3d3d3d;
+            1px 1px #fef281,
+            2px 2px black,
+            3px 3px #3d3d3d;
 }
 
 .about-header {
@@ -1987,25 +1987,25 @@ font-family: 'Barrio', cursive;
   height:200px;
   width:900px;
   background-color: #D8DDE9;
-  box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
-  border:3px solid black;
+  box-shadow: 1px 1px #ffffff, 2px 2px black, 3px 3px black;
+  border:2px solid black;
 }
 
 .home {
   height:220px;
   width:900px;
   background-color: #CABEFA;
-  box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
+  box-shadow: 1px 1px #ffffff, 2px 2px black, 3px 3px #ffffff;
   /*// margin: 11px;*/
-  border:3px solid black;
+  border:2px solid black;
 }
 
 .interests {
   height:200px;
   width:900px;
   background-color: #C9D1FF;
-  box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
-  border:3px solid black;
+  box-shadow: 1px 1px #ffffff, 2px 2px black, 3px 3px #ffffff;
+  border:2px solid black;
 }
 
 .fun-fact {
@@ -2015,8 +2015,8 @@ font-family: 'Barrio', cursive;
   position: relative;
   top: -80px;
   left: 48px;
-  border:3px solid black;
-  box-shadow: 2px 2px #ffffff, 4px 4px black, 6px 6px black;
+  border:2px solid black;
+  box-shadow: 1px 1px #ffffff, 2px 2px black, 3px 3px #ffffff;
 }
 
 .about-text {
@@ -2051,6 +2051,8 @@ font-family: 'Barrio', cursive;
   letter-spacing: 0.1em;
   text-shadow: 2px 2px black, 4px 4px black;
   transition:0.3s;
+  border: 2px solid black;
+  box-shadow: 1px 1px #ffffff, 2px 2px black, 3px 3px #3d3d3d;
 }
 
 
@@ -2061,7 +2063,7 @@ font-family: 'Barrio', cursive;
   border-radius:50%;
   margin-right:124px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border:3px solid black;
+  border:2px solid black;
 }
 
 .interests-container {
