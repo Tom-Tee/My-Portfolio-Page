@@ -447,9 +447,9 @@ h6 {
 }
 
 @media only screen and (max-width: 1370px) {
-  .tools-skills .skills-content-text {
+/*  .tools-skills .skills-content-text {
   font-size:22px!important;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 1350px) {
@@ -468,6 +468,9 @@ h6 {
 }*/
 
 @media only screen and (max-width: 1280px) {
+  .tools-skills .skills-content-text {
+  font-size:22px!important;
+  }
   .skills-content-text {
     font-size: 12px!important;
   }
