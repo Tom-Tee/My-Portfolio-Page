@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   end
 
   def download_cv
-    send_file 'public/ThomasTempleCV.pdf', type: 'image/png', status: 202
+    send_file 'public/Thomas-Temple-Resume.pdf', type: 'image/png', status: 202
   end
 
 end
