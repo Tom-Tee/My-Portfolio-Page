@@ -1401,6 +1401,14 @@ box-shadow:2px 2px #ff1f8f,
   -webkit-text-stroke-color: black;
 }
 
+.portfolio-nav p {
+    visibility: hidden!important;
+}
+
+.top-response p {
+    visibility: hidden!important;
+}
+
 .contact img {
   width: 68px;
 }
@@ -1504,7 +1512,7 @@ text-align: center;
 }
 
 .begin h1 {
-font-family: 'Barrio', cursive;
+font-family: monospace;
   color:#705693;
   font-size: 78px;
   text-border: 3px solid #000000;
