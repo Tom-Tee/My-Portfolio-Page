@@ -1385,7 +1385,7 @@ box-shadow:2px 2px #ff1f8f,
 }
 
 .port-lumina .header-text-light {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
@@ -1410,7 +1410,7 @@ font-family: monospace;
 }
 
 .port-spin .header-text-light {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   font-weight: 54px;
   color: white;
   text-decoration: underline;
@@ -1427,7 +1427,7 @@ font-family: monospace;
 }
 
 .port-rad .header-text-light {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
@@ -1444,7 +1444,7 @@ font-family: monospace;
 }
 
 .port-article .header-text-light {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
@@ -1461,7 +1461,7 @@ font-family: monospace;
 }
 
 .port-portfolio .header-text-light {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
@@ -1478,7 +1478,7 @@ font-family: monospace;
 }
 
 .skills .header-text-light {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   font-weight: 500;
   color: white;
   text-decoration: underline;
@@ -1504,7 +1504,7 @@ text-align: center;
 }
 
 .begin h1 {
-font-family: monospace;
+font-family: 'Barrio', cursive;
   color:#705693;
   font-size: 78px;
   text-border: 3px solid #000000;
@@ -1520,7 +1520,7 @@ font-family: monospace;
 }
 
 .header-text {
-font-family: monospace;
+font-family: 'Barrio', cursive;
   color:#F0F7F4;
   font-size: 64px;
   text-border: 3px solid #000000;
@@ -1742,7 +1742,7 @@ font-family: monospace;
 }
 
 .spin-text {
-font-family: monospace;
+  font-family: 'Barrio', cursive!important;
   position: absolute;
   top: -78px;
   right: 500px;
@@ -1751,7 +1751,7 @@ font-family: monospace;
 }
 
 .rad-text {
-font-family: monospace;
+  font-family: 'Barrio', cursive!important;
   position: absolute;
   top: -78px;
   right: 500px;
@@ -1760,7 +1760,7 @@ font-family: monospace;
 }
 
 .article-text {
-font-family: monospace;
+  font-family: 'Barrio', cursive!important;
   position: absolute;
   top: -78px;
   right: 500px;
@@ -1886,7 +1886,7 @@ font-family: monospace;
 }
 
 .skills-text {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   color:white;
   font-size: 48px;
   text-border: 3px solid #000000;
@@ -2043,7 +2043,7 @@ font-family: monospace;
 
 
 .abouts-text {
-font-family: monospace;
+  font-family: 'Barrio', cursive;
   color: #ffffff;
   font-size: 32px;
   text-border: 3px solid #000000;
