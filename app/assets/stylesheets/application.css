@@ -1512,7 +1512,7 @@ text-align: center;
 }
 
 .begin h1 {
-font-family: 'Caveat', cursive;
+    font-family: monospace;
   color:#705693;
   font-size: 78px;
   text-border: 3px solid #000000;
