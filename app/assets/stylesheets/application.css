@@ -13,12 +13,8 @@
  *= require_tree .
  *= require_self
  */
-/*@import 'portfolio';*/
 
-
-.theme-switcher {
-  background-color: #e5d5f5;
-}
+@import 'style';
 
 html,body
 {
