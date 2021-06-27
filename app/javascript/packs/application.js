@@ -13,9 +13,24 @@ Turbolinks.start()
 ActiveStorage.start()
 
 
+const themeSwitcher = () => {
+const themeSwitch = document.querySelector(".click-toggle");
+if(!themeSwitch) return;
+themeSwitch.addEventListener("click", function() {
+  console.log("test")
+    // document.body.classList.toggle("theme-switcher");
+  });
+}
+
+
 var myModal = document.getElementById('myModal')
 var myInput = document.getElementById('myInput')
 
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
+
+document.addEventListener("turbolinks:load", () => {
+  themeSwitcher()
+  // fitMapToMarkers();
+});

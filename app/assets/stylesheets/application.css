@@ -15,6 +15,11 @@
  */
 /*@import 'portfolio';*/
 
+
+.theme-switcher {
+  background-color: #e5d5f5;
+}
+
 html,body
 {
     overflow-x: hidden;
