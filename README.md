@@ -12,7 +12,7 @@ Ruby on Rails, Javascript, HTML & CSS.
 
 ## Live site:
 
-[Portfolio Page](https:/www.thomastemple.dev/)
+[Portfolio Page](https://thomastempledev.herokuapp.com/)
 
 ## Setup
 
@@ -53,6 +53,6 @@ Each project has a modal to preview content and a link to the project.
 
 ![UI - article](docs/skills.png)
 
-The site is *fully responsive* for different desktop sizes.
+The site is fully responsive for different desktop sizes.
 
-![UI - response](docs/response.png)
+Try it out!
