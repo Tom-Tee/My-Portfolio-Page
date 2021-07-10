@@ -1,7 +1,7 @@
 # README
 # My Portfolio Page
 
-Have a look at the code to my portfolio page. I decided to make a single page with all my recent projects in them. I wanted to be a little different with the design and give it personality. 
+Have a look at the code to my portfolio page, a single flowing page.
 
 ![UI - Home](docs/home.png)
 
@@ -16,7 +16,7 @@ Ruby on Rails, Javascript, HTML & CSS.
 
 ## Setup
 
-If you would like to look at the code then clone the GitHub repository and change directory into `lumina`:
+If you would like to look at the code then clone the GitHub repository and change directory into `the-real-portfolio`:
 ```
 gh repo clone Tom-Tee/the-real-portfolio
 ```
@@ -36,18 +36,23 @@ You will see the beginning to the page where you can automatically jump to certa
 Have a scroll down and you can see my projects.
 
 Here are just a couple:
-##lumina
+
+## lumina
 
 ![UI - lumina](docs/lumina.png)
 
-##article lounge
+Each project has a modal to preview content and a link to the project.
+
+![UI - lumina](docs/modal.png)
+
+## article lounge
 
 ![UI - article](docs/article.png)
 
-Have a look at my skills section too;
+## My skills
 
 ![UI - article](docs/skills.png)
 
-The site is also fully responsive for different desktop sizes.
+The site is *fully responsive* for different desktop sizes.
 
 ![UI - response](docs/response.png)
