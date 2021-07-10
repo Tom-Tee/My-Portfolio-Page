@@ -37,7 +37,7 @@ Have a scroll down and you can see my projects.
 
 Here are just a couple:
 
-## lumina
+## Lumina
 
 ![UI - lumina](docs/lumina.png)
 
@@ -45,7 +45,7 @@ Each project has a modal to preview content and a link to the project.
 
 ![UI - lumina](docs/modal.png)
 
-## article lounge
+## Article Lounge
 
 ![UI - article](docs/article.png)
 
