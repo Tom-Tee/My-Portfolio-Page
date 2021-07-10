@@ -1564,7 +1564,7 @@ font-family: 'Barrio', cursive;
   background-color: #FF68B3;
     color: black;
     font-weight: 100;
-    margin-bottom: 0px!important;
+    /* margin-bottom: 0px!important; */
       transition: 0.3s;
 }
 
