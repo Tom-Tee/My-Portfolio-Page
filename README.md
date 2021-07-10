@@ -3,8 +3,6 @@
 
 Have a look at the code to my portfolio page. I decided to make a single page with all my recent projects in them. I wanted to be a little different with the design and give it personality. 
 
-*'Connect with your world like never before.'*
-
 ![UI - Home](docs/home.png)
 
 This application was built with
