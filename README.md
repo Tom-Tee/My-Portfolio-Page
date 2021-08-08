@@ -7,7 +7,7 @@ Have a look at the code to my portfolio page, a single flowing page.
 
 This application was built with
 ```
-Ruby on Rails, Javascript, HTML & CSS.
+Ruby on Rails, Javascript, HTML & SCSS.
 ```
 
 ## Live site:
@@ -29,11 +29,10 @@ This will install the gems needed to run the program correctly.
 
 ## Navigating the application
 
-You will see the beginning to the page where you can automatically jump to certain parts in the page. There is also a *theme selector* on the right:
+You will see the beginning to the page where you can automatically jump to certain parts in the page.
 
-![UI - toggle](docs/home-toggle.png)
 
-Have a scroll down and you can see my projects.
+Feel free to select the buttons at the top to navigate the page. Alternatively, scroll down and you can see my projects.
 
 Here are just a couple:
 
